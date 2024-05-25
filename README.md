@@ -6,7 +6,7 @@
 
 **This is the info branch.**
 
- 
+---
 
 ## Platform Branching
 
@@ -23,11 +23,26 @@ This repository uses a separate branch for different platforms. For example:
 
 ## Using this repository
 
-After cloning the repository, chekck out the correct branch for your platoform.
+After cloning the repository, check out the correct branch for your platform.
 
 ```bash
 git switch <branch-name>
 ```
+
+---
+
+## Configuring ZSH on the first run
+
+to configure zsh just run `zsh` from the prompt without changing the shell. this will open up an interactive set up that will create a `.zshrc` file.
+
+
+
+### Default  ZSH file
+
+```bash
+```
+
+
 
 ---
 
