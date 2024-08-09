@@ -1,10 +1,10 @@
 # ZSH Configuration
 
-> ***My zsh config. This repository uses a per platform branching structure.***
+> ***My zsh config. This reposiry uses a per platform branching structure.***
 
 ---
 
-**This is the info branch.**
+**Note:** *This is the info branch. There are no zsh config files on this branch, only documentation files.*
 
 ---
 
