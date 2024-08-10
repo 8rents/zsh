@@ -16,13 +16,14 @@ This repository uses a separate branch for different platforms. For example:
 
 ### Current Platforms
 
-- `android` - For use with Android OS
 - `debian` - For Debian based Linux distros
+- `android` - For use with Android OS
 - `msys2` - Linux like development platform for Windows. Download zsh through pacman package manager.
 
 ### Planned Platforms
 
 - `debian-server` - For Debian based Linux distros without a desktop
+- `mac` - For macOS computers
 
 ### Legacy Platforms
 
@@ -31,7 +32,7 @@ This repository uses a separate branch for different platforms. For example:
 ### Non-Platform Branches
 
 - `docs` - Default branch. Documentation on ZSH and this repository. Contains license and platform agnostic info.
-- `blank` - Starting point branch
+- `blank` - Empty starting point branch
 
 ## Using this repository
 
