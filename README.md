@@ -4,7 +4,7 @@
 
 ---
 
-**Note:** *This is the info branch. There are no zsh config files on this branch, only documentation files.*
+**Note:** *This is the `docs` branch. There are no config files on this branch, only documentation files.*
 
 ---
 
@@ -12,14 +12,25 @@
 
 This repository uses a separate branch for different platforms. For example:
 
+## Current
+
 - `info` - introduction readme, NO ACTUAL Files
+- `blank` - empty directory
+- `android` - For use with Android OS
+
+## Planned
+
 - `debian-desktop` - Debian based desktop computers, Debian, Ubuntu, Mint
-- `debian` - Debian installs without the desktop aka server
-- `arch-desktop` - Debian desktop computers
-- `arch` - Debian installs without the desktop
+- `debian` - Debian Linux installs without the desktop
+- `arch-desktop` - Arch Linux installs with a desktop 
+- `arch` - Arch Linux installs without the desktop
 - `mac` - MacOS
 - `msys2` - Windows msys2 Installations
 - `wsl`  - Windows Linux Sub-system
+
+## Legacy
+
+- `oh-my-brent-on-h` - My old *Oh my ZSH config*
 
 ## Using this repository
 
