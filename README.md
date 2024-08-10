@@ -1,2 +1,3 @@
-# zsh
-My zsh config
+# Debian ZSH Configuration
+
+
