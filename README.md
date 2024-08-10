@@ -1,6 +1,6 @@
-# ZSH Configuration
+# Brent's Customized ZSH Configuration
 
-> ***My zsh config. This reposiry uses a per platform branching structure.***
+> *My zsh config. This reposiry uses a per platform branching structure.*
 
 ---
 
@@ -12,48 +12,31 @@
 
 This repository uses a separate branch for different platforms. For example:
 
-## Current
+## Current Platforms
 
-- `info` - introduction readme, NO ACTUAL Files
-- `blank` - empty directory
 - `android` - For use with Android OS
+- `debian` - For Debian based Linux distros
 
-## Planned
+## Planned Platforms
 
-- `debian-desktop` - Debian based desktop computers, Debian, Ubuntu, Mint
-- `debian` - Debian Linux installs without the desktop
-- `arch-desktop` - Arch Linux installs with a desktop 
-- `arch` - Arch Linux installs without the desktop
-- `mac` - MacOS
-- `msys2` - Windows msys2 Installations
-- `wsl`  - Windows Linux Sub-system
+- `debian-server` - For Debian based Linux distros without a desktop
 
-## Legacy
+## Legacy Platforms
 
-- `oh-my-brent-on-h` - My old *Oh my ZSH config*
+- `oh-my-brent-on-h` - My old "Oh my ZSH" config
+
+## Non-Platform Branches
+
+- `docs` - Default branch. Documentation on ZSH and this repository. Contains license and platform agnostic info.
+- `blank` - Starting point branch
 
 ## Using this repository
 
-After cloning the repository, check out the correct branch for your platform.
+After cloning the repository, switch to the correct branch for your platform.
 
 ```bash
-git switch <branch-name>
+git switch <branch name>
 ```
-
----
-
-## Configuring ZSH on the first run
-
-to configure zsh just run `zsh` from the prompt without changing the shell. this will open up an interactive set up that will create a `.zshrc` file.
-
-
-
-### Default  ZSH file
-
-```bash
-```
-
-
 
 ---
 
