@@ -4,7 +4,7 @@
 
 ---
 
-**Home** **|** [Understanding ZSH startup files](docs/startup-files.md)
+**Repo Home** **|** [Understanding ZSH startup files](docs/startup-files.md)
 
 ---
 
