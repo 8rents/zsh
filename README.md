@@ -4,11 +4,9 @@
 
 ---
 
-**Note:** *This is the `docs` branch. There are no config files on this branch, only documentation files.*
-
----
-
 ## Platform Branching
+
+> **Note:** *This is the `docs` branch. There are no config files on this branch, only documentation files.*
 
 This repository uses a separate branch for different platforms. For example:
 
