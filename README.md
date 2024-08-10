@@ -1,4 +1,4 @@
-# ![ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) Brent's Customized ZSH Configuration
+# ![ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) Brent's ZSH Config
 
 > *My zsh config. This repository uses a per platform branching structure meaning each branch is for a different platform*
 
@@ -39,6 +39,10 @@ This repository uses a separate branch for different platforms. For example:
 After cloning the repository, switch to the correct branch for your platform.
 
 ```bash
+# clone the repo
+git clone https://github.com/8rents/zsh ~/.config/shells/zsh
+
+# switch to the correct branch (debian, android, etc)
 git switch <branch name>
 ```
 
