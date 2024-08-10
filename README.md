@@ -1,4 +1,4 @@
-# [ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) Brent's Customized ZSH Configuration
+# ![ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) Brent's Customized ZSH Configuration
 
 > *My zsh config. This repository uses a per platform branching structure meaning each branch is for a different platform*
 
