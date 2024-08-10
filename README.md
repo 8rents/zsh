@@ -16,6 +16,7 @@ This repository uses a separate branch for different platforms. For example:
 
 - `android` - For use with Android OS
 - `debian` - For Debian based Linux distros
+- `msys2` - Linux like development platform for Windows. Download zsh through pacman package manager.
 
 ## Planned Platforms
 
