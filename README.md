@@ -1,12 +1,11 @@
-# Brent's ZSH for Android
+# ![ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) ZSH Configuration for Android
 
-> *Brent's well maintained Oh my ZSH theme, lovingly called, "Oh my Brent on H". Designed to work with Termux terminal on Android. Rooted or unrooted are all welcome.*
+> *My ZSH Configuration for Android devices. Usually run in Termux.*
 
 ---
 
-- **Termux home folder location:** `/data/data/com.termux/files/home/`
-- **Clone location:** 
-  `~/settings/shells/zsh/`
+- **Termux location:** aka `$HOME`  - `/data/data/com.termux/files/home/`
+- **Repo clone location:** - `$HOME/settings/shells/zsh/`
 
 ---
 
