@@ -1,15 +1,19 @@
 # ![ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) Android ZSH Config
 
-> *My ZSH Configuration for Android devices. Usually run in Termux.*
+> *My ZSH Configuration for Android devices. *
 
 ---
 
-- **Termux location:** aka `$HOME`  - `/data/data/com.termux/files/home/`
-- **Repo clone location:** - `$HOME/settings/shells/zsh/`
+[Docs](https://github.com/8rents/zsh) **|** [Understanding ZSH startup files](https://github.com/8rents/zsh/blob/docs/docs/startup-files.md) **|** **Android Installation**
 
 ---
 
 ## Installation
+
+- **Termux** (aka `$HOME`): `/data/data/com.termux/files/home/`
+- **Repo clone location:**  `$HOME/settings/shells/zsh/`
+
+---
 
 1. Install *Termux*
    Make sure you have the **[F-Droid version of Termux](https://f-droid.org/en/packages/com.termux/)** installed. The play store version isn't updated anymore. Plus F-Droid is all FOSS. 
