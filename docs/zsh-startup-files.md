@@ -62,6 +62,11 @@ The source order is the order in which the files are executed.
 
 If you have zsh set as your main shell that opens when you open your terminal then it's both a login shell and an interactive shell. All of the above files would run at some point.
 
+## Other Docs
+
+- [Using Platform Branched Repositories](platform-branching.md)
+- [Staying current with Upstream remote repositories](upstream-forks.md)
+
 ---
 
 🤍 2024 **[Brenton Holiday](https://brenton.holiday)** 
