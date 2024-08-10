@@ -1,4 +1,4 @@
-# ![ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) ZSH Configuration for Android
+# ![ZSH Icon](https://raw.githubusercontent.com/8rents/_/i/h1/zsh.png) Android ZSH Config
 
 > *My ZSH Configuration for Android devices. Usually run in Termux.*
 
