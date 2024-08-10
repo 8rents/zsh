@@ -49,6 +49,8 @@ git switch <branch name>
 ## Other Documentation
 
 - [Understanding ZSH startup files](docs/startup-files.md)
+- [Using Platform Branched Repositories](docs/platform-branching.md)
+- [Staying current with Upstream remote repositories](docs/upstream-forks.md)
 
 ---
 
