@@ -13,7 +13,7 @@
 
 ---
 
-### Platforms currently supported
+## Platforms currently supported
 
 This repository uses a separate branch for different platforms. For example:
 
