@@ -4,6 +4,14 @@
 
 ---
 
+## Documentation Articles
+
+- [Understanding ZSH startup files](../zsh-startup-files/README.md)
+- [Using Platform Branched Repositories](../platform-branching/README.md)
+- **Staying current with Upstream remote repositories**
+
+---
+
 ### Verifying the `upstream` Repository in your fork
 
 The fork you made of my repo that is in your account is called the `origin`. You will obviously want to keep that so you can push your changes to GitHub. However you’ll also want to have `upstream` set in order to receive updates.
@@ -13,7 +21,7 @@ The fork you made of my repo that is in your account is called the `origin`. You
 git remote -v
 ```
 
-You will likely see output like this:
+> You will likely see output like this:
 
 ```bash
 > origin  https://github.com/YOUR-USERNAME/zsh.git (fetch)
@@ -36,7 +44,7 @@ Then view remotes again to verify that both remotes are set:
 git remote -v
 ```
 
-You should now see output like this:
+>  You should now see output like this:
 
 ```bash
 > origin  https://github.com/YOUR-USERNAME/zsh.git (fetch)

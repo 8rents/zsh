@@ -4,6 +4,16 @@
 
 ---
 
+## Documentation Articles
+
+- [Understanding ZSH startup files](../zsh-startup-files/README.md)
+- **Using Platform Branched Repositories**
+- [Staying current with Upstream remote repositories](../upstream-forks/README.md)
+
+---
+
+### Platforms currently supported
+
 This repository uses a separate branch for different platforms. For example:
 
 - [`debian`](https://github.com/8rents/zsh/tree/debian) - For Debian based Linux distros
@@ -12,7 +22,7 @@ This repository uses a separate branch for different platforms. For example:
 
 You will need to clone the repo and then switch to the correct branch. 
 
-## Using config repo as a starting point
+## How to create a fork to use as an upstream repository
 
 The very first thing you want to do is fork the repo into your own account. You will be creating your own history instead of contributing to this project. You will simply use mine as a starting point.
 
@@ -47,9 +57,9 @@ git switch <branch name>
 ./install.sh
 ```
 
-### Up Next
+## Up Next
 
-- [How to stay current with an upstream forked repository](upstream-forks.md)
+- [How to stay current with an upstream forked repository](../upstream-forks/README.md)
 
 ---
 
