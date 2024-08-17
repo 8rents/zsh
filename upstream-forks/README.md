@@ -6,6 +6,7 @@
 
 ## Documentation Articles
 
+- [Installing](../README.md)
 - [Understanding ZSH startup files](../zsh-startup-files/README.md)
 - [Using Platform Branched Repositories](../platform-branching/README.md)
 - **Staying current with Upstream remote repositories**

@@ -6,6 +6,7 @@
 
 ## Documentation Articles
 
+- [Installing](../README.md)
 - **ZSH Start up Files**
 - [Using Platform Branched Repositories](../platform-branching/README.md)
 - [Staying current with Upstream remote repositories](../upstream-forks/README.md)
