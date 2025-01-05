@@ -2,7 +2,7 @@
 # File: ~/dotfiles/shells/zsh/config/rc.zsh
 # Read from: ~/dotfiles/shells/zsh/config/zdotdir/.zshrc
 
-# The .zshenv in the home folder reads all zsh dot files from th4 zdotdir
+# The linked .zshenv reads all zsh files from config/zdotdir
 
 # The dotfiles repository
 export DOTDIR="$HOME/dotfiles"
@@ -17,9 +17,42 @@ export ZSH="$ZSHDIR/lib/oh-my-zsh"
 # default is $ZSH/custom
 ZSH_CUSTOM="$ZSHDIR/omz-custom"
 
-
 # Executable PATH
 export PATH=$HOME/bin:$PATH
+
+# Path to History log
+export HISTFILE=$ZSHDIR/logs/history.log
+export HISTSIZE=50000
+export SAVEHIST=$HISTSIZE
+
+# Set path and name of compdumfile
+autoload -U compinit
+compinit -d $ZSHDIR/logs/completion.dump
+
+# Write the history file in the ':start:elapsed;command' format.
+setopt EXTENDED_HISTORY
+
+# Expire a duplicate event first when trimming history.
+setopt HIST_EXPIRE_DUPS_FIRST
+
+# Do not display a previously found event.
+setopt HIST_FIND_NO_DUPS
+
+# Delete an old recorded event if a new event is a duplicate.
+setopt HIST_IGNORE_ALL_DUPS
+
+# Do not record an event that was just recorded again.
+setopt HIST_IGNORE_DUPS
+
+# Do not record an event starting with a space.
+setopt HIST_IGNORE_SPACE
+
+# Do not write a duplicate event to the history file.
+setopt HIST_SAVE_NO_DUPS
+
+# Share history between all sessions.
+setopt SHARE_HISTORY
+
 
 
 # Set name of the theme to load --- if set to "random", it will
@@ -103,6 +136,9 @@ git
 git-auto-fetch
 gnu-utils
 gpg-agent
+
+zsh-autosuggestions
+zsh-syntax-highlighting
 )
 
 # Load oh-my-zsh lib
@@ -139,12 +175,12 @@ export ARCHFLAGS="-arch $(uname -m)"
 
 # Example aliases
 alias zconf="nano $ZSHDIR/config/rc.zsh"
-alias reload="source $ZSHDIR/config/zdotdir/.zshrc"
-alias rl="reload"
+alias reload="source $ZSHDIR/config/rc.zsh"
+alias rl="source $ZSHDIR/config/rc.zsh"
 
 # ls - switched to eza plugin
 # alias ls="eza"
-# alias l="eza --icons -1hF"
+alias l="eza --icons -1hF"
 # alias ll="eza --icons --no-permissions -lhF"
 # alias la="eza --icons -1ahF"
 # alias lla="eza --icons -no-permissions -lahF"
@@ -192,3 +228,4 @@ eval "$(oh-my-posh init zsh)"
 # ---------------
 echo ""
 neofetch
+

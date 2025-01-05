@@ -1,7 +1,7 @@
 # gitignore for android zsh
 
 oh-my-posh
-lib/
+lib/*
 !lib/README.md
-logs/
+logs/*
 !logs/README.md
