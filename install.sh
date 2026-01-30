@@ -1,1 +1,0 @@
-# Installs Brent's ZSH config

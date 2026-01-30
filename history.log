@@ -1,0 +1,1739 @@
+cd $ZDOTDIR
+ls
+ls -la
+rm rc.zsh
+cd dotfiles
+less .zshrc
+cd ..
+pwd
+ln -sr dotfiles/.zshrc rc.zsh
+source rc.zsh
+source rc.zsh
+source rc.zsh
+source rc.zsh
+exit
+clear
+exit
+cd .config
+ls
+cd
+mkdir templates
+touch templates/README.md
+nano templates/README.md
+cd
+cd .config
+cp ../templates/README.md
+cp ../templates/README.md .
+ls
+ nano README.md
+cd nano
+ls
+nano nano
+nano nanorc
+git status
+git add nanorc
+git commit -m "fixed formatting"
+git push
+git add screenshot.png
+git commit -m "updated screenshot"
+git push
+git status
+git push
+gh auth login
+git auth status
+gh auth status
+git push
+gh auth status
+ls
+nano TODO.md
+glow TODO.md
+nano TODO.md
+glow TODO.md
+glow TODO.md
+nano TODO.md
+glow TODO.md
+nano TODO.md
+glow TODO.md
+nano TODO.md
+git add TODO.md
+git commit -m "updated todo items"
+git push
+neofetch
+neofetch
+clear
+tmux
+exit
+apt upgrade
+apt install oh-my-posh -y
+cd .config/shells/zsh
+ls -1hF
+diff README.md README.md.save
+nano README.md
+nano README.md.save
+rm README.md
+mv README.md.save README.md
+ls
+glow README.md
+nano README.md
+glow README.md
+tree
+ls docs
+glow docs/horseshell-crabs.md
+cd ..
+pwd
+pwd
+ln -s rc.zsh $HOME/rc.zsh
+nano rc.zsh
+SOURCE $HOME/.zshenv
+source $HOME/.zshenv
+rl
+cong
+conf
+nano $HOME/.config/shells/zsh/rc.zsh
+rl
+source $ZDOTDIR/.zshrc
+clear
+source $ZDOTDIR/.zshrc
+rl
+l
+cd 
+date
+man date
+date --rfc-3339
+date --help
+date --rfc-3339="FMT"
+date --rfc-3339="date"
+2025-12-272025-12-272025-12-27
+date
+echo $ZDOTDIR
+source $ZDOTDIR/.zshrc
+clear
+cd .config
+cd shells/zsh
+ls
+nano rc.zsh
+nano rc.zsh
+tmux
+exit
+exit
+rl
+ll
+rl
+ll
+eza --help
+rl
+ll
+lll
+l
+la
+l
+ll
+lla
+*
+lll
+llla
+exit
+conf
+nano .config/nano/nanorc
+exit
+l
+ll
+lll
+llla
+mv posh-themes.md .config/oh-my-posh/
+mkdir .config/oh-my-posh/docs
+mv .config/oh-my-posh/posh-themes.md
+mv .config/oh-my-posh/posh-themes.md .config/oh-my-posh/docs/README.md
+cd .config/oh-my-posh/docs
+l
+mkdir themes
+cp README.md themes
+tree
+cd ../
+tree
+cp ~/templates/README.md themes
+rm themes/README.md
+mv docs/themes/README.md themes
+rm -rf docs/themes
+tree
+mv 8rents themes
+tree
+mkdir themes/brentstick
+mv themes/brentstick.min.omp.json themes/brentstick
+mv themes/hotstick.minimal.omp.json themes/brentstick
+tree
+cp ~/templates/README.md themes/brentstick
+nano themes/brentstick/README.md
+glow themes/brentstick/README.md
+ cd
+l
+cd .config
+cd shells/zsh
+tree
+cs
+cd
+mkdir bin
+cp templates/README.md bin
+nano bin/README.md
+ls
+mv bin .config
+ln -s .config/bin ~/bin
+ls
+lla
+glow bin/README.md
+mv templates .config
+ln -s .config/templates ~/
+llla
+ln -s storage/shared/ ~/android
+llla
+cd android
+l
+l
+cd
+l
+ln -s .config ~/dotfiles
+l
+nano dotfiles/nano/docs/multibuffer-and-tips/README.md
+glow dotfiles/nano/docs/multibuffer-and-tips/README.md
+nano dotfiles/nano/docs/multibuffer-and-tips/README.md
+nano dotfiles/nano/docs/multibuffer-and-tips/README.md
+glow dotfiles/nano/docs/multibuffer-and-tips/README.md
+nano dotfiles/nano/docs/multibuffer-and-tips/README.md
+tree
+mv storage .storage
+ls
+cd android
+rm android
+ln -s .storage/shared ~/android
+ls
+lla
+ll
+ll
+conf
+aliases
+nano .config/shells/zsh/aliases/aliases.zsh
+rl
+aliases
+l
+rl
+aliases
+conf
+rl
+conf
+nano .config/shells/zsh/rc.zsh
+exit
+rl
+exit
+rl
+echo $PATH
+exit
+conf
+conf
+exit
+echo $PATH
+rl
+echo $PATH
+conf
+rl
+conf
+rl
+echo $PATH
+cd
+aliases
+rl
+conf
+zsh -x
+conf
+rl
+rl
+source ~/.zshenv
+conf
+source $Z/rc.zsh
+exit
+l
+pwd
+cd ../usr/bin
+pwd >> ~/templates/script.sh
+cd
+nano templates/script.sh
+nano templates/script.sh
+cd .config/shells/zsh/docs
+l
+mkdir antigen
+la
+lla
+cd antigen/README.md
+nano antigen/README.md
+echo $PATH
+conf
+tmux
+exit
+conf
+exirt
+exit
+l
+glow README.md
+cd .config/oh-my-posh
+tree
+conf
+cd themes
+cd brentstick
+mv brentstick.min.omp.json brentstick.json
+mv brentstick.json brentstick.omp.json
+conf
+nano README.md
+pwd
+nano README.md
+cd ../
+nano README.md
+cd 8rents/README.md
+nono 8rents/README.md
+nano 8rents/README.md
+nano README.md
+l
+mkdir lib
+nano lib/README.md
+l
+cd lib
+cd
+cd ../
+cd usr/bin/oh-my-posh
+l
+cd usr/bin
+ls
+ll
+l
+cd oh-my-posh
+cd ../etc
+ls
+cat tmux.conf
+conf
+tmux
+rl
+exit
+cd ../
+l
+cd ../dotfiles/oh-my-posh
+l
+cd themes
+l
+cd brentstick
+;l
+cd
+conf
+rl
+conf
+rl
+conf
+conf
+rl
+exit
+cd ../../dotfiles/oh-my-posh
+l
+cd themes/brentstick
+l
+pwd
+pl
+l
+mv hotstick.minimal.omp.json ../lib
+tree
+cd ../
+tree
+cd ../
+cd ../shells/zsh
+l
+cd lib
+cp .gitignore ~/templates/gitignore-whitelist
+nano ~/templates/gitignore-whitelist
+pwd
+cd ~/dotfiles/oh-my-posh/themes/lib
+l
+cp ~/templates/gitignore-whitelist .gitignore
+la
+nano .gitignore
+nano README.md
+cd ~/zsh
+l
+nano bin/README.md
+nano aliases/README.md
+nano aliases/aliases.zsh
+rl
+conf
+rl
+l
+conf
+l
+l
+cd .dotfiles
+la
+touch .zprofile
+cd ../
+ln -sr .dotfiles/.zprofile profile.zsh
+l
+rm -rf dotfiles
+la
+lla .dotfiles
+cd .dotfiles
+touch .zlogin
+touch .zlogout
+cd 
+cd dotfiles
+l
+cd shells/zsh/.dotfiles
+l
+la
+nano .zlogin
+l
+la
+rm .zlogout
+cp .zlogin .zlogout
+nano .zlogout
+nano .zprofile
+nano .zprofile
+cd ../
+l
+nano README.md
+tree
+tree -Lw
+tree -L 2
+exit
+...
+\../
+l
+mkdir df
+cp dotfiles/.zshrc
+rmdir df
+l
+ll
+la dotfiles
+cd dotfiles
+ l
+ln -s .zshenv ../env.zsh
+cd ../
+l
+rm env.zsh
+cp dotfiles .dotfiles
+cp -r dotfiles .dotfiles
+l
+la
+rm rc.zsh
+ln -s .dotfiles/.zshrc rc.zsh
+l
+ln -s .dotfiles/.zshenv env.zsh
+l
+conf
+nano .dotfiles/.zshenv
+nano ~/.zshenv
+l
+la
+la ~
+rm ~/.zshenv
+cd ~
+ln -s .config/shells/zsh/.dotfiles/.zshenv ~/.zshenv
+l
+la
+csat .zshenv
+ai bat
+bat .zshenv
+conf
+cd zsh
+l
+conf
+rl
+conf
+rl
+cd ../
+l
+cd dotfiles/tmux
+l
+touch tmux.conf
+nano tmux.conf
+nano tmux.conf
+nano tmux.conf
+nano tmux.conf
+exit
+as antidote
+pkg search antidote
+l
+ln -s .config/shells/zsh ~/zsh
+zsh/
+ls
+cd docs
+ls
+mv antigen antidote
+nano antidote/README.md
+tmux
+tmux
+exit
+exit
+exit
+conf
+exit
+conf
+ezit
+exit
+clear
+tmux
+tmux
+echo $TMUX
+exit
+clear
+tmux
+conf
+exit
+ppz
+tmux
+exit
+tmux
+exit
+exit
+l
+conf
+exit
+l
+conf
+exit
+exit
+l
+l
+lll
+ll
+lla
+l
+cd dotfiles
+ll
+lll
+glow README.md
+pwd
+cd
+lla
+ll
+llla
+cd dotfiles/git
+ll
+bat config
+la
+l
+aliases
+rl
+txonf
+tconf
+l
+la
+lll
+ll
+l
+lla
+cd dotfiles/shells/zsh
+l
+ll
+cd ../
+cd ../
+cd git
+l
+l
+ll
+lla
+lll
+lla
+llla
+docs
+l
+bat gitconfig-all-variables.toml
+bat gitconfig-all-variables.toml
+cat gitconfig-all-variables.toml
+less gitconfig-all-variables.toml
+git --config list
+git config list
+git l
+g ll
+g log
+g branch -v
+g branch -a
+q
+ll
+l
+cd ../
+l
+mkdir debian
+cd debian
+pwd
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh
+l
+ln -s start-debian.sh ~/
+cd
+l
+mv start-debian.sh bin
+l
+echo $PATH
+start-debian.sh
+cd
+cd bin
+l
+rm start-debian.sh
+ln -sr ../../../debian/start-debian.sh start-debian
+l
+start-debian
+cd
+cd bin
+l
+rm start-debian
+ln -sr ../../../debian debian
+l
+cd debian
+l
+cs ../
+cd ../
+ln -sr debian/start-debian.sh start-debian
+l
+la debian
+ln -sr debian/debian-binds ./
+ln -sr debian/debian-fs ./
+l
+ln -sr debian/debian.sh debian.sh
+lla
+llla
+start-debian
+cd
+start-debian
+la
+l
+llla .local
+llla local/share
+llla local/share/
+ll
+l
+touch bin/ordinal
+lla bin
+chmod +x bin/ordinal
+lla
+lll
+llla bin
+chmod 777 ordinal
+chmod 777 bin/ordinal
+llla
+lla bin
+rm bin/ordinal
+cp templates/script-template.sh bin/ordinal.sh
+nano bin/ordinal.sh
+l
+l
+cd bin
+l
+cd
+debian/start-debian.s
+debian/start-debian.sh
+debian
+cd debian
+./debian/start-debian.sh
+start-debian
+clear
+cd android
+l
+cd Music
+l
+l
+ln -sr ../Media/Audio/Library Library
+ln -s ../Media/Audio/Library Library
+l
+lll
+cd ../
+chmod 777 ./
+ll
+llll
+lll
+chmod 777 ./Music
+chmod 777 ./Music/*
+l
+cd Music
+l
+lll
+ln -s Alarms al
+cd
+ln -sr ../Media/Library Library
+ll
+cd android/
+ll
+cd
+lll
+rm Library
+ll
+glow README.md
+nano README.md
+glow README.md
+nano README.md
+glow README.md
+l
+conf
+exit
+gh
+ssh-keygen
+la
+cd .ssh
+lla
+l
+cp ~/templates/README-template.md README.md
+nano README.md
+cd .ssh
+mkdir -p docs/best-practices
+nano docs/best-practices/README.md
+nano docs/best-practices/README.md
+cd dotfiles/nano
+mv Screenshot_20251228-002006.png screenshot.png
+l
+tconf
+nano templates/TODO.md
+tconf
+tconf
+cd dotfiles/tmux
+l
+cp ~/templates/TODO.md
+cp ~/templates/TODO.md ./
+nano TODO.md
+cd
+nano templates/TODO.md
+bat *
+bat templates/*
+cd dotfiles/tmux
+g remote -v
+g push
+g s
+g aa
+cd ~/dotfiles/git
+nano config
+cd ../tmux
+g aa
+g commit -m "finished basic conf file"
+g push
+glow TODO.md
+l
+mkdir docs
+cp ~/templates/README-template.md docs/README.md
+nano docs/README.md
+nano README.md
+rm README.md
+cp ~/templates/README-template.md README.md
+nano README.md
+g s
+g log
+bat tmux.conf
+exit
+tmux
+exit
+g s
+la
+cd dotfiles/tmux
+g s
+g s
+g s
+la
+g s
+la
+tree
+touch plugins/test
+la
+tree
+g s
+tree -a
+mv plugins/.gitignore ../
+l
+la
+tree -a
+mv ../.gitignore ./
+la
+nano .gitignore
+la
+nano .gitignore
+tree -a
+la
+lla plugins
+g s
+bat .gitignore
+nano .gitignore
+cd plugins
+glow README.md
+l
+la plugins
+l
+tconf
+clear
+l
+l
+clear
+l
+reset
+eraae
+Erase
+delete
+l
+lll
+cd .
+../
+../
+nano
+cd nano
+l
+nano nanorc
+cs dotfiles/tmux
+cd dotfiles/tmux
+nano tmux.conf
+rl
+tconf
+l
+cd plugins
+git clone https://github.com/tmux-plugins/tpm
+tconf
+g s
+laaa
+lla
+tree
+tconf
+tmux
+exit
+cp ~/templates/TODO.md ./
+l
+l
+l
+cd ../
+cdc
+cd
+cd bin
+l
+cd rsync
+l
+glow README.md
+glow README.md
+l
+nano README.md
+glow README.md
+cd
+docs/android
+l
+glow README.md
+glow backup.md
+cd
+cd bin
+l
+mv rsync backup
+cd backup
+l
+l
+cp ~/templates/script-template.sh music-lib-backup.sh
+nano music-lib-backup.sh
+lll
+chmod 777 +x ./*
+chmod 777 ./*
+lll
+lllq
+llla
+ln -s music-lib-backup.sh ../music-lib-backup
+rl
+cd
+music-lib-backup
+lll bin
+cd bin
+rm music-lib-backup
+ln -s backup/music-lib-backup.sh music-lib-backup
+cd
+mu
+cd bin
+lll
+rl
+cd
+music-lib-backup
+music-lib-backup
+music-lib-backup.sh
+cd bin
+lll
+nano music-lib-backup
+ll
+music-lib-backup
+tconf
+tconf
+.
+../
+cd ../
+l
+gh repo clone test-docs
+cd test-docs
+l
+llla
+cd .github
+l
+mkdir f1
+touch f1
+l
+cd f1
+l
+llq
+lla
+touch README.md
+nano README.md
+nano ../README.md
+g aa
+g c -m "f1"
+g push
+pwd
+cd ...
+../
+...
+.../
+../../
+cd test-docs
+l
+mkdir f1
+touch something-or-another.md
+nano something-or-another.md
+g aa
+g c -m "s a"
+g push
+mkdir f1
+l
+cd f1
+l
+exit
+l
+cd ..
+ll
+g s
+tree
+cd
+l
+xd docs
+cd docs
+l
+cd android
+l
+cp frp.md audio.md
+g init
+l
+g switch drafts
+g co -b drafts
+g a README.md 
+g c -m "initial import"
+rm -rf .git
+gh repo create
+glow README.md
+gh repo create
+l
+mv hacking-android ../
+mv * ../hacking-android
+l
+cd ../
+l
+rmdir android
+mv hacking-android android
+l
+cd android
+l
+g a README.md
+g c -m "Added main readme"
+glow README.md
+nano README.md
+nano audio.md
+g c -m "added sections to Readme"
+g a README.md 
+g c -m "added sections to Readme"
+g switch drafts
+g checkout -b drafts
+l
+glow README.md
+glow audio.md
+g a audio.md 
+g c -m "added audio doc outlineâ€ƒ½
+g c -m "added audio doc outline"
+g s
+glow backup.md
+g a backup.md 
+g c -m "added draft of rsync backup doc"
+g s
+glow frp.md
+g a frp.md
+g c -m "added draft of frp bypass doc"
+g s
+glow rooting.md
+g a rooting.md
+g c -m "initial import of rooting doc"
+g s
+g push origin drafts
+l
+glow backup.md
+nano backup.md
+exit
+l
+l
+cd
+l
+rl
+nano TODO.md
+nano TODO.md
+l
+bat zshrc-sample.zsh
+l
+bat zshrc-sample.zsh
+ll
+nano zshrc-sample.zsh zsh/rc.zsh
+nano zshrc-sample.zsh zsh/rc.zsh
+bye
+l
+ll
+zconf
+rl
+zconf
+rl
+cd $OMP_THEMES
+cd .config/oh-my-posh
+l
+cd themes
+cd -2
+cd zsh
+cd -1
+cd 
+cd .config/shells/zsh/lib
+cd -1
+pwd
+cd .config/shells/zsh/lib
+cd pwd
+pwd | cd
+pwd -1
+man pwd
+zenv
+zenv
+zenv
+source .zshenv
+rl
+date
+pbcopy
+cd .config
+lllq
+llla
+lla
+llla
+zconf
+sou4f
+source .zshenv
+nano .zshenv
+aliases
+rl
+zenv
+l
+zconff
+zconf
+rl
+l
+zconf
+zenv
+echo $ZDOTDIR
+echo $Z
+echo $OMP_THEMES
+zconf
+cd
+.config/git
+l
+bat config
+gh auth login status
+gh auth status
+pwd
+cd
+bat .config/gh/hosts.yml
+gh auth status
+gh auth status
+lame --preset standard
+lame --preset help
+ai lame
+man lame
+as flac
+ai flac
+cd bin
+l
+touch flac2mp3
+chmod +X flac2mp3
+nano flac2mp3
+rm flac2mp3
+cp ~/templates/script.sh flac2mp3
+chmod +X flac2mp3
+llla
+chmod 777 flac2mp3
+llla
+nano flac2mp3
+mv flac2mp3 flac2mp3-V2
+cp flac2mp3-V2 flac2mp3-V0
+nano flac2mp3-V0
+nano flac2mp3-V0
+nano flac2mp3-V2
+lame -V 2
+lame --preset help
+ls README.md
+ls -m
+ls -x
+ls -X
+l
+nano flac2mp3-V2
+cd
+nano docs/android/audio.md
+nano docs/android/audio.md
+nano bin/flac2mp3-v2
+find ~/android/Desktop/flac -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+cd bin
+mv flac2mp3-V0 flac2mp3-v0
+mv flac2mp3-V2 flac2mp3-v2
+llla
+chmod +X flac2mp3-v0
+chmod 777 flac2mp3-v0 
+llla
+cd
+find ~/android/Desktop/flac -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+find ~/android/Desktop/flac -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+find ~/android/Desktop/flac -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+ll ~/android
+ll ~/android/Desktop
+ll ~/android/Desktop/mp3s
+find ~/android/Desktop/flac -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+find ~/android/Desktop/flac -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+ll android/Desktop/mp3s
+echo num(1,2)
+echo $num(1,2)
+find ~/android/Desktop/flac -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+man flac
+find ~/android/Media -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+find ~/android/Media/Audio/Music/Library/Ini -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+find ~/android/Media/Audio/Music/Library/Ini -name '*.flac' -print0 | xargs -0 ~/bin/flac2mp3-v2
+l
+cd android
+cd Share
+cd gh-image-host
+g s
+g a logos/lame.png
+g commit -m "added lame logo"
+g push origin i
+cd
+..
+l
+cd usr/bin
+l
+lame -V help
+lame --preset help
+lame -V 2
+lame -?
+lame --longhelp
+146 find ~/android/Media/Audio/Music/Library -name '*.flac' -print0 | xargs -0\
+    ~/bin/flac2mp3-v2
+find "$HOME/ssd2tb/Media/Audio/Music/Library-hq" -name "*.flac" -print0 | xargs -0 flac2mp3-v2
+tmux
+nano docs/android/audio.md
+nano flac2mp3-v2
+cd bin
+lla
+rm flac2mp3-V2
+nano flac2mp3-v2
+cd
+lla
+mkdir backup
+ll
+cd
+lla
+cd backup
+lla
+llla
+man rsync
+nano bin/backup/backup.sh
+cd bin/backup
+rm backup.sh
+cp ~/templates/script.sh backup.sh
+ln -s backup.sh ../
+cd ..
+llla
+rm backup.sh
+ln -s backup backup/backup.sh
+ln -s backup/backup.sh backup
+llla
+ln -s $HOME/bin/backup/backup.sh backup
+ln -s $HOME/bin/backup/backup.sh backup.sh
+llla
+bat backup.sh
+nano backup
+nano backup.sh
+chmod +X backup.sh
+chmod 777 backup.sh
+llla
+backup
+./backup.sh
+./backup.sh
+nano backup.sh
+./backup.sh
+nano backup.sh
+./backup.sh
+glow
+rsync -rlhc --info=progress2,name0 $HOME/android/ $HOME/backup
+llla
+rm -rf ./*
+ll
+cp ~/templates/script.sh {backup.sh,music.sh,symlinks.sh}
+cp ~/templates/script.sh backup.sh
+cp ~/templates/script.sh symlinks.sh
+cp ~/templates/script.sh music.sh
+nano README.md backup.sh music.sh symlinks.sh
+diff
+delta
+ai git-delta
+cd
+l
+cd android
+l
+tree -L2
+tree -L3
+tree -L4
+tree -L4
+cd
+cd bin/backup
+nano README.md backup.sh music-lib-backup.sh symlinks.sh
+nano backup.sh
+./backup.sh
+bat backup.sh
+xd
+llla
+pwd
+cd
+cd backup
+llla
+cd
+cd bin/backup
+lla
+pwd
+llla
+llla tmp
+tree tmp
+lla
+cd bin
+lla
+cd backup
+lla
+glow
+l
+cd android/Notes
+l
+rm horseshell-crabs.md
+cd Ideas
+l
+mv fake\ call\ app.md ../
+mv todo-list.md ../todo.md
+cd ..
+rmdir Ideas
+l
+mv fake\ call\ app.md dans-fake-call-app.md
+l
+glow
+cp ~/templates/README-template.md README.md
+glow
+nano *
+rm todo.md
+cp ~/templates/TODO.md todo.md
+glow todo.md
+glow
+cp ~/templates/README-template.md notes-app.md
+nano notes-app.md
+glow
+notes
+bu
+bu
+bu
+llla
+bu
+bu
+bu
+aliases
+rl
+notes
+bat symlinks.sh
+bat symlinks.sh
+bat bin/symlinks.sh
+cd bin/backup/
+llla
+bat backup.sh
+chmod +X backup.sh
+chmod 777 backup.sh
+llla
+cd ../
+lla
+cd
+lla
+cd docs
+lla
+cd android
+llla
+llla
+cd
+cd bin
+lla hacking-android
+cd hacking-android
+llla
+bat rooting.md
+glow
+cd ../
+rm -rf hacking-android/
+llla
+bat symlinks.sh
+bat backup
+bat backup.sh
+llla
+mv backup.sh backup
+rm backup.sh
+ln -s $HOME/bin/backup/backup.sh $HOME/bin/backup
+ln -s $HOME/bin/backup $HOME/bin/backup/backup.sh
+lla
+bu
+ln -s $HOME/bin/bu $HOME/bin/backup/backup.sh
+ln -s $HOME/b$HOME/bin/backup/backup.sh
+ln -s $HOME/bin/backup/backup.sh backup
+ln -s $HOME/bin/backup/backup.sh bu
+llla
+rl
+bu
+bat symlinks.sh
+bat symlinks.sh
+bat symlinks.sh
+bat symlinks.sh
+bat symlinks.sh
+cd bin/backup
+l
+bat backup.sh
+nanbao
+nano backup.sh
+cd
+lla
+nano backup-symlinks.sh bin/backup/backup.sh
+nano backup-symlinks.sh
+nano bin/backup/backup.sh backup-symlinks.sh
+exit
+man readlink
+cd
+readlink
+readlink --help
+readlink -f
+readlink -e
+ll
+readlink zsh
+readlink -f zsh
+readlink -e zsh
+neofetch
+neofetch
+EXIT
+exit
+nano nanorc
+date
+cd dotfiles/nano
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanor
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+l
+ll docs
+mkdir function-binding
+cd function-binding
+nano README.md
+glow
+tree
+cd ../
+tree
+glow
+lla
+mv function-binding docs/function-binding
+ls -R
+glow
+glow
+glow
+l
+nano nanrc
+l
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+ll
+nano nanorc
+nano nanorc
+nano nanorc
+mkdir docs/colors
+cp ~/templates/README-template.md docs/colors/README.md
+nano docs/colors/README.md
+rm docs/colors/README.md
+rm -rf docs/colors
+cd docs
+l
+cp -r notable-options colors
+cd ../
+l
+nano nanorc docs/colors/README.md
+nano nanorc docs/colors/README.md
+cd 
+cd .termux/
+l
+cat colors.properties
+cat colors.properties
+cd
+cd .config/nano
+glow
+nconf
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+cd .config/nano
+glow
+nano nanorc
+rl
+nano nanorc
+nano nanorc
+nano -I
+nano -I nano-syntax-highlighting
+nano -I nanorc
+man nano
+nano nanorc
+nano nanorc
+nano -I nanorc
+nano .config/nano/docs/function-binding/README.md
+nano nanorc
+cd docs/
+l
+glow
+cd ../
+nano $HOME/.confing/nano/nanorc
+l
+lla
+tree
+l
+nano $HOME/.config/nano/nanorc docs/*/README.md
+aliases
+rk
+rl
+nanodocs
+nanodocs
+nano nanorc README.md TODO.md docs/*/README.md
+echo $SPELL
+as spell
+ainfo aspell
+apt info aspell
+ai aspell
+nano ~/.zshenv
+aspell
+nanio nanorc
+nconf
+nconf
+nconf
+nconf
+nano -I nanorc
+nano nanorc
+cd
+cd android/Share/_
+lls
+ll
+g aa
+g s
+g restore --staged
+g restore --staged ./
+g s
+g a screenshots/
+g s
+g commit -m "added screenshot of neofetch-colors\
+\
+\
+\
+\
+\
+\
+\
+\
+g \
+"
+g s
+glow
+g a README.md
+g c -m "Updated mauin readme"
+g push'
+g push
+l
+gh repo view _
+gh repo view _ --web
+glow
+cd 
+cd .config/nano
+g s
+g a docs/colors/
+g c -, "added colors document"
+g c -m, "added colors document"
+g commit -m, "added colors document"
+g commit -m "added colors document"
+g s
+g s
+git a docs/multibuffer-and-tips/
+g c -m "added doc on using multiple buffers and the file browser"
+g s
+glow
+g s
+g s
+g a docs/c
+l
+cd docs
+l
+cd colors
+cd ../
+g a colors/
+g s
+g a colors/README.md
+g s
+g push
+gh repo view --web
+glow
+g a function-binding/
+g s
+g a c -m "Added doc on function binding"
+g push
+g c -m "Added doc on function binding"
+g push
+sa
+gs
+g s
+cd ../
+nano TODO.md
+glow
+nano docs/function-binding/README.md nano nanorc
+n
+nano
+nano -I nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+nano nanorc
+glow
+cd .config/nano
+l
+cd docs
+l
+neofetch
+cd docs
+L
+l
+cd ../
+nano docs/*/README.md
+glow
+glow docs
+nano README.md
+glow
+nano nano-syntax-highlighting/markdown.nanorc
+pwd
+nano nanorc
+exit
+glow
+gh repo view _ --web
+glow
+glow
+lla
+cd Files
+lla
+cd Settings
+lla
+trew
+tre
+etr
+tree
+cd OS/Android
+lla
+cd ../
+cd ../
+tree
+cd../
+llq
+lla
+l
+cd ../
+l
+tree
+cd
+exit
+exit
+cd .config/nano
+ll
+ls nano-syntax-highlighting
+ls -laF
+bat bin/take.sh
+rl
+lla
+glow
+zconf
+ai yr-
+ai yt-dlp
+yt-dlp
+man yt-dlp
+yt-dlp --help
+cs android/Download
+cd android/Download
+yt-dlp https://www.moddb.com/groups/adventure-time-community-group/videos/adventure-time-too-young#commentform
+yt-dlp https://www.videoclip.bg/watch/860846
+zconf
+zconf
+rl
+cd
+rl
+zconf
+cd
+glow docs
+cs
+cd bin
+cp ~/templates/script.sh ./
+mv script.sh readme.sh
+nano readme.sh
+chmod +X readme.sh
+chmod 777 readme.sh
+lla
+cd
+zconf
+aliases
+aliases
+cd bin
+cp ~/templates/script.sh ./take.sh
+nano take.sh
+git init
+g s
+g switch android
+g checkout -android
+g checkout -bandroid
+g aa
+g commit -m "initial commit of android branch"
+glow
+cd
+take brent/smashes/muxho/puss
+tak3 brent/smashes/muxho/puss
+tres brent
+tree brent
+glow brent
+nano ~/templates/README-template.md
+ll
+rm -rf brent
+take a/b/c
+tak3 a/b/c
+glow a
+rm -rf a
+llla
+rm -rf bbb
+	lll
+rm -rf zuper
+lll
+rm -rf tmp
+llla
+lll
+lll
+lll bin
+mv  a
+mv backup-symlinks.sh bin
+lll bin
+lll
+rm -rf Files
+lll
+rm zsh
+lll
+lll dotfiles
+mv pgp .config
+ln -s .config/pgp pgp
+lll
+rm -rf pgp
+lll
+mv zshrc-sample.zsh dotfiles/shells/zsh
+lll
+chmod +X take.sh
+cd
+take
+take gum
+nano bin/take.sh
+take
+take cat
+take cat
+take cat
+take cat
+take
+rl
+take yum
+cd bin
+ln -s take.sh tak3 
+rl
+tak3
+tak3 k
+nano tak3
+g s
+bat backup-symlinks.sh
+cd dotfiles/nano/docs
+l
+glow
+l)a
+llla
+cd bin
+l
+nano d2b
+cd bin
+l
+aliases
+tree backup
+cd backup
+ll
+bat *
+cd ../
+l
+take test
+d2b Documents
+d2b
+lll
+cd
+llla
+rl
+rl
+source dotfiles/shells/zsh/rc.zsh
+rl
+rl
+rl
+source dotfiles/shells/zsh/rc.zsh
+rl
+l
+cd bin/backup
+glow
+export EXCLUDES='{".git",".gitignore"}'
+echo $EXCLUDES
