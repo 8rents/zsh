@@ -16,18 +16,19 @@
 # note: the HOME environment variable is defined in editor config file
 # .config/termux/termux.properties
 
-export CONFIG="$HOME/.config"
-export SETTINGS="$CONFIG"
-
 # set the default folder for cli configs
-export XDG_CONFIG_HOME="$CONFIG"
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # Z is the path to this repo, the `zsh` folder: .config/shells/zsh
-export Z="$CONFIG/shells/zsh"
+export Z="$XDG_CONFIG_HOME/shells/zsh"
 
 # ZDOTDIR is default zsh configs folder
 # .config/shells/zsh/.dotfiles
 export ZDOTDIR="$Z/.dotfiles"
+
+# oh my posh themes
+# .config/oh-my-posh/themes
+export OMP_THEMES="$XDG_CONFIG_HOME/oh-my-posh/themes"
 
 # Path environmental variable
 # files or shell scripts that are in directories included in $PATH can be called from any directory as if user is currently in that directory. scripts do not need to be preceeded with ./ when beng 

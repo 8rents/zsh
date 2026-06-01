@@ -10,7 +10,7 @@
 
 ---
 
-## In this article
+## Contents
 
 - [Installation & Use](#installation-use)
 - [Goals & Philosophy of this Library](#goals-and-philosophy)
@@ -35,7 +35,7 @@ Instead of treating our shells like these magical horned beasts that can't ever 
 
 ## Loading order of assets in this library
 
-1. A .zshenv file is placed in user home pointing to: `$HOME/.config/shells/zsh/dotfiles`.  This is where the correctly named `.` zsh live.
+1. A .zshenv file is placed in user home pointing to: `$HOME/.config/shells/zsh/.dotfiles`.  This is where the correctly named `.` zsh live.
 2. Within that dotfiles folder is a `.zshrc` file with the `$Z` variable defined. All further zsh paths are relative to this path and within it.
 3. The files in project root that are named the way I like them are just symlinks pointing to the dotfiles directory.
 
