@@ -1,8 +1,8 @@
 # ZSH User Run Commands file for Android
 
-# The rc file is sourced only for interactive instances of zsh and the most common file to add configuration options to. It differs from `zprofile` only in that it is called after `zlogin`. Otherwise they "profile" and "run commands" address the same instance types. `zshrc` values trump `zprofile` values becauae it is called afterward
+# The rc file is sourced only for interactive instances of zsh and the most common file to add configuration options to. It differs from `zprofile` only in that it is called after `zlogin`. Otherwise zprofile (profile.zsh) and zshrc (rc.zsh) address the same instance types. `zshrc` values trump `zprofile` values becauae it is called after zprofile. zshrc however is called after zlogin (login.zsh)
 
-# Sourced 3rd after zshenv & zprofile
+# Sourced 4th after zshenv, zprofile and zlogin
 
 # Configuration file for zsh instances that are:
 # - [x] Interactive (User enter commands in the terminal)
@@ -12,15 +12,24 @@
 
 # Sections (Line Number)
 # ======================
+# Paths
 # History (25)
 # Completions (48)
 # Changing Directories (80)
 # zsh line editor (96)
 # Input (109)
-# Aliasea & Plugins (129)
+# Aliases & Plugins (129)
 # Startup Commands (140)
 # Further Reading (168)
 # ---—--------—--------
+
+# Paths
+# =====
+# Exported paths. Most of these are defined in zshenv. The ones found here only apply to interactive sessions (an actaual terminal window as opposed to a script)
+
+# Path environmental variable
+# files or shell scripts that are in directories included in $PATH can be called from any directory as if user is currently in that directory. Scripts do not need to be preceeded with ./ when being called.
+export PATH="$PATH:$HOME/bin"
 
 
 # History
@@ -29,7 +38,7 @@
 # Docs: zsh.sourceforge.io/Doc/Release/Options.html#History
 
 # History file location
-HISTFILE=$ZSH/history.log
+HISTFILE=$Z/history.log
 
 # History file size and line limits (whichever is first)
 HISTSIZE=10000 # kilobytes
@@ -75,7 +84,7 @@ setopt nocaseglob
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 # Hyphens and Underscores insensitive comoletion. Each completes the other.
-zstyle ':completion:*' matcher-list '' 'm:{-_}={_-}'
+zstyle ':completion:*' matcher-list 'm:{-_}={_-}'
 
 
 # Changing Directories
@@ -86,7 +95,7 @@ zstyle ':completion:*' matcher-list '' 'm:{-_}={_-}'
 setopt auto_pushd
 
 # If a command is issued that can’t be executed as a normal command and the command is the name of a directory, perform the cd command to that director
-setopt auto_cd
+unsetopt auto_cd
 
 # Exchanges the meanings of ‘+’ and ‘-’ when used with a number to specify a directory in the stack."
 # `cd -3` goes back three directories in the cd stack. I do this because `cd -<n>` matches `git checkout @{-<n>}` better than `cd +<n>` does.
@@ -129,16 +138,24 @@ setopt prompt_subst
 # ===================
 # These extend the capabilities of zsh in area specific ways. Alias and libraries that I didnt personally writebor maintain outside of this zsh config should be imported as git sub modules and then added to the corrisponding index file
 
+
+# Aliases directory
+export $ALIASES="$Z/aliases"
+
 # Source the aliases index file
-source $Z/aliases/index.zsh
+source $ALIASES/index.zsh
+
+# Library / plugins folder
+export $LIB="$Z/lib"
 
 # Source libraries index file
-source $Z/lib/index.zsh
+source $LIB/index.zsh
 
 
 # Start up commands
 # =================
 # Commands that will run when a new terminal is opened
+
 
 # tmux
 # ----
@@ -152,21 +169,17 @@ fi
 # zsh prompt engine
 
 
-# oh my posh themes
-# .config/oh-my-posh/themes
-# export OMP_THEMES="CONFIG/oh-my-posh/themes"
+# oh my posh themes folder
+# Path to the folder holding all of the oh my posh themes
+export OMP_THEMES="$CONFIG/oh-my-posh/themes"
 
-
-# brentstick prompt
-# eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/themes/brentstick/brentstick.omp.json)")
 
 # Tokyo prompt
-# eval "$(oh-my-posh init zsh --config tokyo)"
+eval "$(oh-my-posh init zsh --config tokyo)"
 
 # Neofetch
 # --------
-# Show system info (even in new tmux instances windows and pane)
-# config file: .config/neofetch/config.conf
+# Show system info
 neofetch
 
 

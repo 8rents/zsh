@@ -16,11 +16,14 @@
 # note: the HOME environment variable is defined in editor config file
 # .config/termux/termux.properties
 
-export CONFIG="$HOME/.config"
-export SETTINGS="$CONFIG"
 
 # set the default folder for cli configs
+export CONFIG="$HOME/.config"
+export SETTINGS="$CONFIG"
 export XDG_CONFIG_HOME="$CONFIG"
+
+# Path to Android storage
+export ANDROID="$HOME/storage/shared"
 
 # Z is the path to this repo, the `zsh` folder: .config/shells/zsh
 export Z="$CONFIG/shells/zsh"
@@ -28,10 +31,6 @@ export Z="$CONFIG/shells/zsh"
 # ZDOTDIR is default zsh configs folder
 # .config/shells/zsh/.dotfiles
 export ZDOTDIR="$Z/.dotfiles"
-
-# Path environmental variable
-# files or shell scripts that are in directories included in $PATH can be called from any directory as if user is currently in that directory. scripts do not need to be preceeded with ./ when beng 
-export PATH="$PATH:$HOME/bin"
 
 
 # Defaults
