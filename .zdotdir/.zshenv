@@ -28,17 +28,11 @@ export DOTFILES="$HOME/dotfiles"; df="$DOTFILES"
 # -------------------
 # These folders contents should be versioned by git
 
-
 # User Configurations
 # analogous to /etc for system configs
 # Default: $HOME/.config
 export XDG_CONFIG_HOME="$DOTFILES"
 export SYSTEM_DIR="$DOTFILES/.system"
-
-# User Data files
-# analogous to /usr/share for system data
-# Default: $HOME/.local/share.
-export XDG_DATA_HOME="$SYSTEM_DIR/data"
 
 # User state files
 # analogous to /var/lib for system state
@@ -58,10 +52,6 @@ export XDG_CACHE_HOME="$SYSTEM_DIR/cache"
 export XDG_RUNTIME_DIR="$SYSTEM_DIR/runtime"
 
 
-# Android partition
-# =================
-export ANDROID="$HOME/.storage/shared"
-
 # zsh
 # ===
 
@@ -71,7 +61,12 @@ export Z="$DOTFILES/shells/zsh"
 # zsh configs
 # -----------
 # This is where zsh will create configuration & start up files. This directory is hidden because you should never need to directly access these files, instead using the aliases in the zsh folder.
-export ZDOTDIR="$Z/.dotfiles"
+export ZDOTDIR="$Z/.zdotdir"
+
+
+# Android partition
+# =================
+export ANDROID="$HOME/.storage/shared"
 
 # Termux boot 
 # -----------

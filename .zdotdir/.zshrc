@@ -171,7 +171,7 @@ omp_themes="$DOTFILES/ohmyposh/themes"
 # oh-my-posh
 # eval "$(oh-my-posh init zsh --config $omp_themes/8rents.yml)"
 # eval "$(oh-my-posh init zsh --config $omp_themes/lib/tokyo.omp.json)"
-eval "$(oh-my-posh init zsh)"
+# eval "$(oh-my-posh init zsh)"
 
 # Neofetch
 # --------
