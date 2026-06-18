@@ -1,6 +1,4 @@
-# To Do
-
-`Android ZSH`
+# To Do List for Android ZSH
 
 > *The neverendig list of things to do*
 
@@ -8,8 +6,11 @@
 
 ## Cue
 
-- [ ] Add tpm as a submodule
-- [ ] Write a check to see if tpm foldwr exists and if not run install script
+- [ ] Make sure that line endings are correct
+- [ ] Fix or ditch oh my posh
+- [ ] get aliases working
+- [ ] get plugins working
+- [ ] Work on custom prompt
 
 ## Concepts / Ideas
 
@@ -20,4 +21,4 @@ into lightening fast production files.
 
 ## Completed
 
-
+- [x] Remove oh my zsh and other frameworks

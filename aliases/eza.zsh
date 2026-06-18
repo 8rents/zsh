@@ -1,6 +1,6 @@
-# ================
 # eza (ls) aliases
 # ================
+# Modern replacement for ls
 
 # simple list
 alias l="eza --git -1hF"

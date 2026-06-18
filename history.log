@@ -69,20 +69,1791 @@ ls
 cd
 zconf
 exit
-: 1780454044:0;zconf
-: 1780454056:0;cd $Z
-: 1780454066:0;n rc.zsh
-: 1780454081:0;nano rc.zsh
-: 1780454128:0;tmux
-: 1780454139:0;pwd
-: 1780454154:0;nano rc.zsh
-: 1780454166:0;ls
-: 1780454220:0;ls aliases/2
-: 1780454224:0;ls aliase
-: 1780454235:0;ls aliases
-: 1780454258:0;bat indx.zsh
-: 1780454265:0;bat index.zsh
-: 1780454296:0;bat aliases/{index.zsh,index.zsh.save}
-: 1780454353:0;cd aliases
-: 1780470497:0;touch {audio.zsh,markdown.zsh}
-: 1780470502:0;git aa
+zconf
+cd $Z
+n rc.zsh
+nano rc.zsh
+tmux
+pwd
+nano rc.zsh
+ls
+ls aliases/2
+ls aliase
+ls aliases
+bat indx.zsh
+bat index.zsh
+bat aliases/{index.zsh,index.zsh.save}
+cd aliases
+touch {audio.zsh,markdown.zsh}
+git aa
+g c
+git commit
+git commit
+gh auth login
+traceroute google.com
+ai traceroute
+zconf
+$ALIASES
+ls
+bat index.zsh
+bat index.zsh.save
+rm index.zsh
+mv index.zsh.save index.zs
+mv index.zs index.zsh
+ls
+bat index.zsh
+touch common.zsh
+mv index.zsh index
+cd ../
+nano rc.zsh snippets.zsh
+cd
+cd .termux/boot
+ls
+touch {README.md,script.sh}
+chmod +X script.sh 
+nano script.sh
+ls
+cd
+ls
+ls -la
+mv fs android
+ls
+cd android
+ls
+cd
+mkdir bin
+cd
+cd templates
+cp project/{README.md,TODO.md} ./
+ls
+n *.md
+nano *.md
+pwc
+pwd
+cd
+cp templates/README.md .termux/boot
+l
+ls
+cp templates/project/{README.md,TODO.md} ./
+nano *.md
+cd
+cd bin
+ls
+cd
+ls
+cd bin
+ls
+cp ../templates/README.md ./
+nano README.md
+termux-fix-shebang
+pwd
+cd
+cd bi
+cd bin
+ls
+touch test.sh
+nano test.sh
+termux-fix-shebang test.sh
+nano test.sh
+nano test.sh
+sh
+pwd
+cd $Z
+nano rc.zsh
+tmux
+ls
+cd $ALIASES
+pwd
+cd $Z
+nano rc.zsh
+ls -1a
+echo $Z
+nano rc.zsh
+exec zsh
+exec zsh
+exec zsh
+exec zsh
+exec zsh
+echo $lib
+aliases
+exec zsh
+exec zsh
+echo $alias_dir
+exec zsh
+exec zsh
+clear
+clear
+exec zsh
+pwd
+exec zsh
+ls
+cd $alias_dir
+ls
+mv index index.zsh
+clear
+exec zsh
+ls
+rm '*Termux'
+l
+td
+td
+cd settings/termux/boot
+l
+mv up.sh boot.sh
+l
+la
+n README.md
+n README.md
+termux-scoped-env-variable
+echo $ANDROID
+cd $ANDROID
+la
+n .zshenv
+mv boot.sh up.sh
+pwd
+l
+bat *
+man bat
+exit
+exit
+exit
+au
+ai gh
+la
+ai tree
+llla .config
+la .config/keys
+tree .config/keys
+lla .config/ssh
+lla
+rm -rf .config/ssh
+cd .config/keys/ssh
+llavl
+lla
+rm id*
+llla
+rm .gitattributes
+mkdir bin
+mv install.ps1 bin
+touch 
+rm -rf bin
+la
+n README.md
+pwd
+cd
+ln -s $HOME/.config/keys/ssh .ssh
+llla
+cd .ssh
+lla
+rm .ssh
+rmdir .ssg
+cd
+rm .ssh
+ln -s .config/keys/ssh .ssh
+cd .ssh
+la
+cd
+ssh-keygen -f ~/.ssh/8rents-github_26-06-05 -C "8rents cross machine github key, created June 5th 2026. EXPIRES:6/5/27
+ssh-keygen -f ~/.ssh/8rents-github_26-06-05 -C "8rents cross machine github key, created June 5th 2026. EXPIRES:6/5/27"
+tree .ssh
+ssh-keygen -f ~/.ssh/8rents -C "8rents general user key, created June 5th 2026"
+lla .ssh
+ssh-keygen -k
+ssh-keygen -k krl
+ssh-keygen -k -f krl
+bat krl
+ssh-keygen -k 8rents -f krl
+cd .ssg
+rm krl
+cd .ssh
+ssh-keygen -k 8rents -f krl
+ssh-keygen - -f krl
+ssh-keygen -k -f krl
+baf krl
+bat krl
+rm krl
+ssh-keygen -e 8rents
+ssh-keygen -e -f 8rents
+man ssh-keygen
+pwd
+cd .ssh
+ssh-keygen -l
+ssh-keygen -l
+ssh-keygen -l -E -f .ssh/8rents
+ssh-keygen -l 8rents
+ssh-keygen -l
+ssh-keygen -l
+ssh-keygen -l
+sha256sum
+man sha256sum
+sha256sum -c .ssh/8rents.pub
+pwd
+sha256sum -c 8rents.pub
+sha256sum 8rents.pub
+ssh-keygen -l
+sha256sum 8rents
+sha256sum 8rents.pub
+sha256sum 8rents.pub -c
+ssh-keygen -l -f 8rents
+ssh-keygen -l -f 8rents.pub
+ssh-keygen -l -f 8rents > 8rents.fingerprint
+l
+$key="8rents-github_26-06-05"
+key="8rents-github_26-06-05"
+ssh-keygen -l -f $key > $key.fingerprint
+l
+bat 8rents-github_26-06-05.fingerprint
+bat *
+n README.md
+pwd
+ls
+cd
+cd $Z
+ls
+n rc.zsh
+exec zsh
+ls lib
+ls
+rm '*Termux'
+ls
+cd $Z
+ls
+ls lib
+bat lib/index.zsh
+n lib/index.zsh
+exec zsh
+exec zsh
+clear
+exec zsh
+aliases
+l
+l aliases
+bat aliases/eza.zsh
+bat aliases/nan9.zsh
+bat aliases/nano.zsh
+n aliases/index.zsh
+pwd
+cd aliases
+l
+touch rsync.zsh
+pwd
+n 2pwd
+n 
+n *.md
+rm aliases/index.zsh
+l
+cd aliases
+o
+l
+rm README.m
+l
+rm README.md.save
+ll
+cd ../
+l
+n rc.zsh
+exec zsh
+pwd
+p2
+p3w
+pwd
+cl324////;5D;5D;5D;5
+exit
+exit
+n rc
+l
+pwd
+cd $Z
+n rc.zsh
+ls
+n rc.zsh
+ll
+pwd
+ls
+ls -la
+n rc.zsh
+na
+nano rc.zsh
+clear
+exec zsh
+nano rc.zsh
+clear
+tmux
+n rc.zsh
+nano rc.zsh
+clear
+exec zsg
+cd
+cd android/Share/GitHub
+l
+git clone -b i https://github.com/8rents/_ img
+cd img
+ls
+ls -la
+pwd
+git clone -b i https://github.com/8rents/_ img
+ping google
+ping google.com
+ping 1.1.1.1
+ping 4.4.4.4
+ls
+cd aliases
+pwd
+ls
+echo $ALIASES
+ls $ALIASES
+exec zsh
+exec zsh
+exec zsh
+pwd
+l
+ls
+chmod +X common.zsh
+ls -la
+chmod +x common.zsh
+ls -la
+chmod -x common.zsh
+ls -la
+chmod +x common.zsh
+exec zsh
+nano zsh.zsh
+ls
+cd $Z
+ls
+rl
+exec zsh
+zconf
+pwd
+mkdir reference
+mv {zshrc-sample.zsh,snippets.zsh,dfs} reference
+ls reference
+ls
+ls -1a
+cd .git
+ls
+nano config
+cd ../
+ls
+cd reference
+touch rc.defaults.modularized.zsh
+nano rc.defaults.modularized.zsh
+ls
+nano snippets.zsh
+ls
+cd ..m
+cd ../
+nano rc.zsh
+ls aliases/
+pwd
+chmod -x aliases/common.zsh
+ls
+ls aliases
+cd
+nano .zshenv
+man delta
+delta -h
+nano .zshenv
+apt search spell
+aspell
+apt install aspell -y
+aspell
+apsell -?
+man aspell
+exec zsh
+man aspell
+apt search lint
+apt info vale
+apt search format
+apt search formatter
+clear
+apt search formatter
+apt search beatifier
+apt search mdformat
+apt search spell
+tty
+$(tty)
+PWD
+pwd
+cd $Z
+nano env.zsh
+ln -s env.zsh env.sh
+nano env.sh
+pwd
+ln -s rc.zsh rc.sh
+nano rc.sh
+rm rc.sh
+rm env.sh
+ls
+exec zsh
+echo $plugins
+echo $plugins[1]
+exec zsh
+echo $plugins
+echo $plugins[@]
+exec zsh
+echo $lib
+echo $lib[1]
+exec zsh
+echo $libb[1]
+echo $libb
+print $libb
+print $plugins
+exec zsh
+echo $LB
+echo $LB[1]
+LB=(A B\
+C\
+)
+echi $LB
+echo $LB
+pwd
+source rc.zsh
+echo $LB
+echo $plugins
+source rc.zsh
+echo $plugins
+plugins=(\
+160 "zsh-users/zsh-syntax-highlighting"\
+161 "zsh-users/zsh-autosuggestions")
+echo $plugins
+plugins=(\
+zsh-users/zsh-syntax-highlighting"\
+"zsh-users/zsh-autosuggestions")\
+)
+plugins=(\
+zsh-users/zsh-syntax-highlighting\
+zsh-users/zsh-autosuggestions\
+)
+echo $plugins
+echo $plugins[1]
+echo $plugins[2]
+echo $plugins[#]
+echo $plugins[@]
+plugins=(\
+zsh-users/zsh-syntax-highlighting\
+zsh-users/zsh-autosuggestions\
+)
+echo $plugins
+clear
+exec zsh
+pwd
+ls aliases
+exec zsh
+ls
+cd
+ls
+cd
+ls
+ls -la
+ls -1a
+mv .config dotfiles
+apt update && apt full-upgrade -y
+cd $Z
+0wd
+pwd
+ls
+nano rc.zsh
+ce $Z
+cd $Z
+ls
+nano rc.zsh
+tmux
+pwd
+nano aliases/*
+cd aliases
+rm git.zsh 
+rm nano.zsh
+l
+ls
+bat *
+nano common.zsh
+bat *
+exec zsh
+cd ../
+nano rc.zsh env.zsh
+exec zsh
+nano rc.zsh
+aliases
+exec zsh
+exec zsh
+nano $ALIASES/*.zsh
+pwd
+cd aliases
+pwd
+ls
+nano *.zsh
+exec zsh
+exec zsh
+exec zsh
+exec zsh
+clear
+exec zsh
+exec zsh
+clear
+exec zsh
+clear
+pwd
+cd ../
+ls
+source rc.zsh
+clear
+source rc.zsh
+cd d
+cd $df/
+pwd
+ls
+mv oh-my-posh ohmyposh
+source rc.zsh
+omp
+ohmyposh
+exec zsh
+source rc.zsh
+source rc.zsh
+source rc.zsh
+l
+auin
+apt purge oh-my-posh -y
+exec zsh
+clea4
+clear
+exec zsh
+ai oh-my-posh
+exec zsh
+clear
+exec zsh
+as
+ai
+source rc.zsh
+pkg i oh-my-posh
+source rc.zsh
+~00000654
+l
+g-m
+ls
+l
+cd $Z
+cd $Z
+nano rc.zsh env.zsh
+ls -la
+chmod 700 history.log
+cd ../
+cd ../
+cd ohmyposh
+git status
+git add -A
+git commit
+exec zsh
+ls
+la themes
+ls
+cd themes/lib
+ls
+exec zsh
+la
+oh-my-posh -v
+oh-my-posh --version
+oh-my-posh upgrade
+exec zsh
+l
+pwr
+pwd
+cd $Z
+ls
+ls aliases
+bat *.zsh
+ls
+ls -la
+ls .dotfiles
+ls -la .dotfiles
+ls
+cd .dotfiles
+wget https://github.com/8rents/zsh/blob/android/.dotfiles/.zlogin
+ls
+ls -la
+wget https://github.com/8rents/zsh/blob/android/.dotfiles/.zlogout
+wget https://github.com/8rents/zsh/blob/android/.dotfiles/.zprofile
+ls -la
+bat .zcompdump
+pwd
+cd $Z
+zconf
+nano .dotfiles/*
+cd .dotfiles
+l
+la
+ls -la
+nano *
+nano ./*
+ls
+ls -la
+nano .zprofile
+bat *
+bat .*
+pwd
+cd $Z
+cd .dotfiles
+bat .zprofile
+rm .zprofile
+ls -la
+bat .zlogin
+rm .zlogin
+bat .zlogout
+rm .zlogout
+l
+ls -la
+bat .zs*
+nano .zprofile
+nano .zprofile
+nano .zshenv
+pwd
+exit
+exit
+cd $Z
+nano rc.zsh
+pwd
+cd ../
+cd ../
+ls
+chmod 770 .system
+chmod 770 .system/
+ls -la
+tree .system
+mkdir .system/data
+mkdir .system/cache
+mkdir .system/state
+mkdir .system/runtime
+tree .system
+chmoele
+pwd
+cd .system
+chmod 770 *
+la -la
+ls -la
+nano $Z/rc.zsh
+nano $Z/.dotfiles/*
+cd $Z
+cd .dotfiles
+nano *
+nano .*
+nano .zshrc
+cd bin
+touch test.s
+mv test.s test.sh
+chmod +x test.sh
+ls -la
+ls -la test.sh 
+rm test.sh 
+echo "# > test.sh && chmod +x test.sh && termux-fix-shebang test.sh
+bat test.sh
+ls
+f="test.sh"
+echo "# > $f
+echo '#!/bin/bash' > $f
+bat $f
+termux-fix-shebang test.sh
+bat $f
+termux-exec-system-linker-exec -h
+chmod +x test.sh
+ls -la $f
+pwd
+cp -r ../templates/project ./mk
+ls
+mkdir dev
+mv mk dev
+l
+ls
+cd dev/mk
+ls
+rm CHANGELOG-ENTRY.md
+pwd
+ce
+ce
+celd
+cd
+ls
+rm '*Termux'
+l
+ls
+ls -la
+cd templates
+ls
+mv project/CHANGELOG-ENTRY.md ../
+ls
+cr
+cd
+ls
+mv CHANGELOG-ENTRY.md templates
+ls
+cd
+cd templates
+ls
+nano *.md
+cd project
+l
+ls
+nano *.md docs/*.md
+ls
+cd ..m
+cd ../
+ls
+tree project
+pwd
+nano **/*.md
+ls
+cd
+pwd
+cd templates/project
+ls
+tr3e
+tree
+bat **/*
+glow
+glow
+glow
+glow
+ls
+rm '*Termux'
+ls
+bat .md
+bat *.md
+glow
+cd bin
+l
+ls
+pwd
+cd bin/dev
+ls
+cp -r ../../templates/project ./new-script
+ls
+ls
+cd new-script
+ls
+nano README.md CHANGELOG.md
+cd
+c
+tree templates/project
+pwd
+cd bin/dev/new-script
+ls
+touch new-script.sh
+echo '#!/bin/bash' > new-script.sh
+termux-fix-shebang new-script.sh
+chmod +x new-script.sh
+cd bin/dev/new-script
+nano new-script.sh
+clear
+new-script
+cd
+cd bin
+lm -s dev/new-script/new-script.sh new-script
+ln -s dev/new-script/new-script.sh new-script
+cd
+c
+clear
+new-script
+new-script
+cd bin
+ls -la
+cd
+cd bin
+ls -la
+new-script
+new-script.sh
+cd
+new-script
+new-script
+clear
+new-script
+clear
+new-script
+new-script
+new-script
+new-script
+new-script
+new-script
+new-script
+new-script
+ls
+cd
+ls
+cd docs
+os
+ls
+glow
+tred
+tree
+nano bash-cheatsheet.sh
+echo '#!bin/bash' > bash-functions.sh
+termux-fix-shebang bash-functions.sh
+chmod +x bash-functions.sh
+pwd
+pwd
+cd docs
+./bash-functions.sh
+nano bash-functions.sh
+termux-fix-shebang bash-functions.sh
+nano bash-functions.sh
+termux-fix-shebang bash-functions.sh
+nano bash-functions.sh
+./bash-functions.sh
+./bash-functions.sh
+./bash-functions.sh
+./bash-functions.sh
+./bash-functions.sh
+pkg update; pkg i neovim -y
+cd
+cd dotfiles
+cp -r ../templates/project ./vim
+cd vim
+nano *
+pwd
+cd dotfiles/vim
+vim README.md TODO.md CHANGELOG.md vimrc
+bat CHANGELOG.md
+date
+pwd
+bat *
+pwd
+git init
+git add -A
+git status
+rm :bp
+ls g
+git status
+git commit
+git add -A
+git commit
+git remote add origin https://github.com/8rents/vim
+git push origin
+git branch
+git switch android
+git checkout -b android
+git switch blank
+git checkout -b blank
+ls -la
+vim *
+vim **/*.md
+vim **/*.md
+vim TODO.md vimrc
+vim docs/commands.md docs/configuration.md
+git branch
+git branxh
+git branch --delete main
+ls -la
+ls -la docs/
+cd ../
+nano CHANGELOG.md README.md TODO.md docs/README.md docs/commands.md docs/configuration.md
+git branch
+pwd
+cd vim
+git branch
+nano CHANGELOG.md README.md TODO.md docs/README.md docs/commands.md docs/configuration.md
+bat vimrc
+q
+pwd
+rm vimrc
+bat README.md
+nan README.md
+nano README.md
+nano docs/*.md
+git branch
+nano README.md
+git status
+nano **/*.md
+rm vimrc; nano README.md TODO.md CHANGELOG.md                   docs/commands.md docs/configuration.md docs/README.md
+git add -A; git commit
+nano README.md
+nano TODO.md
+nano CHANGELOG.md
+nano LICENSE.md
+ls
+nano docs/*.md
+git branch
+git add -A
+git commit
+git remote -v
+git push origin blank
+gh auth login
+git push origin blank
+gh repo create vim
+git push origin blank
+git push origin docs
+git branch -a
+git push origin android
+gh repo 
+gh repo view vim
+git switch docs
+git branch -ar
+git fetch origin/docs
+git pull origin docs
+git fetch origin docs
+git branch -a
+git switch docs
+git switch origin/docs
+gh repo view vim --web
+git checkout -b docs
+git status
+git push origin docs
+git switch blank
+ls -la
+git branch
+rm docs/commands.md
+rm docs/configuration.md
+nano *.md
+rm vimrc; nano README.md TODO.md CHANGELOG.md docs/README.md 
+nano docs/README.md
+git add -A
+git commit
+git push origin blank
+git push origin docs
+git push o
+git switch android
+git push origin android
+git push origin docs
+vim README.md
+vim README.md TODO.md CHANGELOG.md LICENSE.md
+git status
+git status
+git switch docs
+git status
+git stat
+git add  �A
+git commit
+git push
+git push origin
+git push origin docs
+git push origin blank
+git push origin linux
+git help config
+git -h
+lss
+ls
+ls --tree
+ls --t
+ls -t
+ls -la
+gh repo view
+git status
+git switch blank
+git push
+git switch docs
+git switch android
+git push origin
+git push origin android
+git help config
+vim ../../dotfiles/git/config
+git branch
+git status
+git add -A
+git commit
+git push android
+git push originandroid
+git push originandroid
+git push origin
+git push and
+git config --global push.autoSetupRemote true
+vim ../../dotfiles/git/config
+nano docs/commands.md
+vim docs/commands.md
+git config --global push.a
+git config --global interactive.singleke
+git config --global interactive.s
+git config --global push.autoSe
+git push --global"\
+
+git push origin l
+git config --global push.aut
+git config --global showbranch.default a
+git config --global showbranch.default an()
+git config --global --show-names add.
+git config --global --show-names get
+gh auth login
+cd
+cd dotfiles/git
+bat config
+git config --global merge.conflictstyle diff3
+pwd
+vim docs/commands.md
+vim ../../dotfiles/git/ignore
+vim docs/commands.md docs/configuration.md vimrc
+vim docs/commands.md docs/configuration.md vimrc
+mv vimrc init.vim
+vim docs/commands.md docs/configuration.md init.vim
+vim docs/commands.md docs/configuration.md init.vim
+pwd
+cd dotfiles/vim
+git branch
+ls
+pkg search search
+pkg search g
+pkg search google
+pkg search web
+bat config
+vim config
+nvim
+vim
+ls
+cd dotfiles
+ls
+mv vim nvim
+cd nvim
+vim README.md
+mv init.vim init.lua
+cd ../
+cd tmux
+ls
+vim tmux.conf
+vim tmux.conf
+pkg i g
+pkg i
+pkg s3arcb
+vim $df/nvim/
+bat tmux.conf
+rm tmux.conf
+vim dotfiles/nvim/init.lua
+pkg i ripgrep
+1
+ls
+cd dotfiles
+vim tmux/tmux.conf
+vim nvim/init.lua
+cd
+cd dotfiles/shells/zsh
+vim rc.zsh
+exit
+exit
+vim rc.zsh
+vim shells/zsh/rc.zsh
+echo $plugins[1]
+echo $plugins[2]
+exitf
+exit
+exec zsh
+ls
+cd
+cd dotfiles/ohmyposh
+git status
+git push
+echo $df
+cd $df/git
+vim config
+exit
+exitf
+exit
+pwd
+cp -r ~/template/project ./template
+cp -r ~/templates/project ./template
+cd template
+ls
+nano **/*.md
+nano README.md
+git init
+git add -A
+git commit
+git checkout -b blank
+ls
+rm CHANGELOG.md
+rm TODO.md
+ls
+rm LICENSE.md
+nano **/*.mdf
+nano **/*.md
+tree
+git add -A
+git c
+git branch
+git switch main
+ls
+git status
+cd
+nano $df/git/config
+nano $df/nvim/init.lua
+vim $df/nvim/init.lua
+exit
+exi5
+exit
+exit
+pwd
+cd dot[
+cd dot	
+cd dot	
+cd dotfiles/tmuux
+cd dotfiles/tmux
+ls
+tree
+bw
+bat tmux.conf
+vim tmux.conf
+git status
+git diff README.md E
+git diff README.md
+vim README.md
+2
+ls
+vim tmux.conf
+exit
+exit
+tree
+cd dotfiles/tmux
+tree
+./plugins/tpm/bin/install_plugins
+vim tmux.conf
+./dotfiles/tmux/plugins/tpm/bin/clean_plugins
+./dotfiles/tmux/plugins/tpm/bin/install_plugins
+dotfiles/tm…ux/plugins/tpm/bin/
+dotfiles/tm…ux/plugins/tpm/bin/
+dotfiles/tm…ux/plugins/tpm/bin/
+./plugins/tpm/bin/clean_plugins
+./plugins/tpm/bin/update_plugins
+./plugins/tpm/bin/update_plugins all
+cd dotfiles/tmux
+tree
+bat tmux.conf
+vim tmux.conf
+vim tmux.conf
+exec zsh
+echo $file
+vim tmux.conf
+vim tmux.conf
+./plugins/tpm/bin/clean_plugins
+./plugins/tpm/bin/update_plugins
+./plugins/tpm/bin/update_plugins all
+vim tmux.conf
+tmux -v
+tmux --version
+tmux -V
+cd ../
+cd nvim
+cd $Z
+vim rc.zsh
+exit
+vim init.lua
+pwd
+ce dotfiles/nvim
+cd dotfiles/nvim
+vim init.lua
+vim docs/configuration.md docs/commands.md
+vim
+0wd
+pwd
+ls
+cd docs
+ls
+cd
+ls
+rm '*Termux\
+'
+rm '*Termux
+rm '*Termux'
+ls
+ls
+cd
+la
+ls
+ls -la
+find -f "quickref.txt"
+cd $Z
+vim rc.zsh
+exec zsh
+vim rc.zsh
+exec zsh
+ls
+vim rc.zsh
+source rc.zsh
+exec zsh
+ls
+vim rc.zsh
+cd
+cd bin
+exec zsh
+vim $Z/rc.zsh
+exec zsh
+ls
+cd bin
+touch plugins.sh && chmod +x plugins.sh && mkdir plugins
+ls
+echo "#
+echo "# > plugins.sh
+echo "# > plugins.sh
+vim plugins.sh
+termux-fix-shebang plugins.sh
+bat plugins.sh
+l
+ls
+pwd
+mv pl* ~/bin
+cd -
+cd
+cd bin
+ls
+vim $Z/rc.zsh plugins.sh
+cd bin
+./plugins.sh
+./plugins.sh
+./plugins.sh
+./plugins.sh
+./plugins.sh
+cd $Z
+vim rc.zsh
+exec zsh
+vim rc.zsh
+exec zsh
+ssh-keygen
+cd .ssh
+cd
+cd .ssh
+ls
+ssh-keygen -lf id_ed25519 > id_ed25519.fingerprint
+bat id_ed25519.fingerprint
+ls
+glow
+bat .gitignore
+cd .ssh
+l
+ls
+vim .gitignore
+git status
+glow
+ls
+rm 8rents*
+ls
+pwd
+ls
+mkdir docs
+cp ~/templates/TODO.md ./
+cd docs
+touch {README.md,creating-new-ssh-key
+ls docs
+mkdir docs && touch docs/{README.md,creating-new-ssh-keypair.md,backing-up-ssh-keys-on-github.md,backing-up-ssh-keys-on-github.md,usig-a-backedup-keygpair.md,authenticate-github-cli.md,verify-identity.md}
+tree
+ls docs
+tree
+pwd
+cd ../
+mv docs fuck
+la
+la
+ls
+mv fuck/docs ./
+lw
+ls
+tree
+rm -rf fuc
+rm -rf fuck
+ls
+gh repo view Files
+gh repo view Files --web
+cd android
+ls
+ls -la
+cd shared
+ls -la
+cd
+ls
+ls -l
+ls -lahF
+mv android .storage
+pwd
+ln -s .storage/shared android
+ls -lahF
+mkdir trash
+mv .termux trash/termux && ln -s dotfiles/termux .termux
+ls -lahF
+cd android
+gh
+gh reference
+gh reference > $HOME/docs/gh-reference.md
+pwd
+la
+ls
+mv New\ Files\ created\ on\ this\ device FilesNeo
+le
+ls
+gh clone repo Files
+gh repo clone Files
+ls
+ls Files
+gh repo clone Files
+cd
+vim dotfiles/git/config
+cs android/Files
+cd android/Files
+ls
+glow
+cd ~
+cd docs
+mkdir files-repo
+rmdir files-repo/
+cs
+cd
+cp -r templates/project docs/files-repo
+cd
+cd docs/files-repo
+la
+ls
+nano *.md
+pwd
+cd docs/files-repo
+ls
+rm CHANGELOG.m
+rm CHANGELOG.md
+rm LICENSE.md
+ls
+pwd
+glow
+ls
+ls
+rm -rf docs
+ls
+touch authenticating-github.md
+touch submodules.md
+mv authenticating-github.md authenticating.md
+ls
+rm TODO.md
+pwd
+pwd
+cd
+ls -lahF
+rm '*Termux'
+ls
+ls -lahF
+cd
+cd templates/project
+ls -lahF
+touch script.sh
+chmod +x script.sh
+ls -lahF
+pwd
+nano script.sh
+termux-fix-shebang script.sh
+bat script.sh
+cd
+cs bin/dev
+cd bin/dev
+ls
+cd
+cp -r templates/project bin/dev/del
+cd bin/dev/del
+mv script.sh del.sh
+nano *
+date
+la -lahF
+ls -lahF
+gloq
+glow
+cd di1
+pwd
+pwd
+cd $Z
+cd
+cd dotfiles/tmux
+ls
+bat *.log
+ls
+nano .gitignore
+rm tmux-client-12472.log
+nano tmux.conf
+exit
+pkg i htop
+htop
+pkg search speedtest
+pkg i speedtest-go
+speedtest
+speedtest-go
+cd
+cd .ssh
+la
+ls
+tree
+nano **/*.md
+echo $d
+echo $dbj
+echo $k
+neofetch
+cd android/
+ls
+cd Share
+ls
+cd GitHub
+ls
+speedtest-go
+ls
+pwd
+git clone -b i https://github.com/8rents/_ img
+git clone -b i https://github.com/8rents/_ img
+ls
+l
+ls ls
+ls
+pwd
+git clone https://github.com/8rents/8rents profile
+gh repo list
+gh rep
+gh repo
+gh repo list -h
+gh repo list --help
+gh repo list --help -L 7
+gh repo list -L 70
+ls
+ls
+cd docs
+ls
+cd files-repo
+ls
+touch layout.md
+ls
+cd
+cdt
+cd
+ls
+cd .termux
+ls
+cd docs
+cd .termux/docs
+ls
+mv 01-installing-updating-termux/README.md 01-installing-updating-termux.md
+tree
+mv 02-working-with-the-filesystem-in-termux/README.md 02-working-with-the-filesystem-in-termux.md
+ls
+mv 02-working-with-the-filesystem-in-termux/01-the-lesser-explored-directories-of-termux/README.md 02.2-lesser-explored-directories-of-termux.md
+ls
+mv 03-setting-up-a-dotfiles-repository/README.md 03-setting-up-a-dotfiles-repository.md
+ls
+mv extra-keys.md extra-keys-for-all-tmux-commands.md
+cp extra-keys-for-all-tmux-commands.md extra-keys-mi
+ls
+mv extra-keys-mi extra-keys-minimalistic.md 
+l
+ls
+tree
+rmdir 01-installing-updating-termux
+rmdir 02-working-with-the-filesystem-in-termux/01-the-lesser-explored-directories-of-termux
+rmdir 02-working-with-the-filesystem-in-termux
+rmdir 03-setting-up-a-dotfiles-repository
+ls
+glow
+exit
+nano dotfiles/tmux/tmux.conf
+exit
+mv docs notes
+l
+ls
+mv TODO.md notes
+cd
+ls
+cd notes
+ls
+mv TODO.md td.md
+mv td.md todo.md
+glow
+ls
+mkdir reference
+mv dates-times.md reference
+mv gh-reference.md reference
+ls
+mv bash reference
+mv zsh reference
+p
+l
+ls
+cd
+ls
+cd bin
+ls
+tree cron
+bat cron/README.md
+bat cron/README.md
+cd cron
+mv README.md ../../notes/reference/backup.md
+cp ../../templates/project/README.md ./
+ls
+ls
+pwr
+pwd
+cd ..m
+cd ../
+ls
+ls plugins
+rmdir plugins\
+bat
+ls
+bat plugins.sh
+ls
+nano cron/README.md
+ls cron
+ls
+cd
+~
+cd notes
+~
+pwd
+ls
+rm "*Scripts"
+rm 'These'
+ls -la
+rm '[!warning]'
+cd android
+ls -la
+cd
+cd .termux/boot
+ls -la
+ls -lahF
+chmod -x README.m
+chmod -x README.md
+ls -lahF
+chmod 770 up.sh
+vim up.sh
+pwd
+cd .termux/boot
+cd
+cd android
+ls -lahF
+ls -l1F
+ls -1aF
+zenv
+cd
+nano .zshenv
+echo $ANDROID
+cd
+pwd
+cd $ANDROID
+pwd
+ls
+nano .zshenv
+pwd
+cd
+nano .zshenv
+cd $Z
+nano rc.zsh
+echo $TERMUX_BOOT_DELETE_DIRS
+./up.sh
+./up.sh
+ls
+echo $TERMUX_BOOT_DELETE_DIRS
+ls
+ls bin/dev
+cp -r templates/project bin/dev/boot
+cd bin/dev/boot
+ls
+nano README.md
+exit
+ls
+glow
+ls
+cd
+cd android
+ls
+mkdir Music
+ls
+exit
+bye
+cd ../
+ls
+cd usr
+ls
+cd etc
+ls
+vin ma
+vim man.conf
+cd ../
+ls
+ls lib
+ls
+ls share
+cd share/oh-my-posh
+ls
+cd themes
+la
+ls
+pwd
+echo $FILES
+echo $TERMUX_APP__SE_FILE_CONTEXT
+ls /usr/share
+echo $SYSTEM_DIR
+echo $TMPDIR
+echo $userdirs
+echo $f
+echo $fpath
+echo $!
+echo $*
+ech $$
+echo $$
+echo $TERMUX__ROOTFS_DIR
+cd
+nano README.md
+echo $userdirs
+echo $f
+echo $fpath
+echo 
+ech
+pwd
+ls
+glow
+nano README.md
+glow
+clw
+ls
+nano .termux/boot/*
+ls
+rm {\*Scripts,These,\[\!warning\]}
+ls
+cf bin
+touch clean.sh
+nano clean.sh
+ls
+mv clean.sh bin
+cd bin
+chmod +x clean.sh
+cd
+cd bin
+nano clean.sh
+clean
+clean.sh
+termux-fix-shebang clean.sh
+nano clean.sh
+clean.sh
+clean.sh
+ls
+cd
+cd notes
+ls
+cd reference
+ls
+cd bash
+ls
+bat bash-functions.sh
+bat bash-cheatsheet.sh
+nano *
+cd
+cd dotfiles/tmux
+git status
+glow
+ls
+ls plugins
+cd plugins/tmux
+ls
+cd ../
+ls
+cd ..m
+cd ..m
+cd ../
+ls
+bat install.sh
+rm install.sh
+ls
+ls -1AhF
+bat .gitignore
+cd plugins
+ls -1AhF
+bat .gitignore
+cp .gitignore ~/templates/git/whitelist-ignore
+mkdir -p ~/templates/git
+cp .gitignore ~/templates/git/whitelist-ignore
+cd
+cd templates
+ls
+mkdir md
+mv *.md md/
+ls
+tree
+mv project md
+tree
+pwd
+git init
+git add -A
+git c
+git log
+os
+ls
+cd
+cd dotfiles
+ls
+tree keys
+cd keys/ssh/docs
+ls
+mv usig-a-backedup-keygpair.md using-a-backedup-keypair.md
+bat README.md
+bat ../README.md
+nano ../README.md
+nano ../README.md
+ls
+./bin/clean.sh
+ls
+rm '*Scripts'
+rm These
+rm '
+rm '[!warning]\
+'
+rm '[!warning]'
+ls
+cd .ssh
+ls
+cd docs
+ls -1
+nano ../README.md
+ls
+touch 01-getting-started.md
+mv creating-new-ssh-keypair.md 02-creating-new-ssh-keypair.md
+mv using-a-backedup-keypair.md 03-using-a-backedup-keypair.md
+mv backing-up-ssh-keys-on-github.md 04-backing-up-ssh-keys-on-github.md
+mv 03-using-a-backedup-keypair.md 05-using-a-backedup-keypair.md
+touch 03-using-keys-login.md
+mv verify-identity.md 06-verify-identity.md
+ls
+bat authenticate-github-cli.md
+rm authenticate-github-cli.md
+ls -1
+exit
+exit
+exit
+apt full-upgrade
+apt update
+apt full-upgrade -y
+cd dotfiles/shells/zsh
+nano rc.zsh
+ls
+pwd
+cd $Z
+ls
+glow
+exit
+cd
+cd dotfiles/tmux
+ls
+nano tmux.conf
+pwd
+cd dotfiles/tmux
+mkdir themes
+exit
+cd dotfiles/tmux
+ls
+./plugins/tpm/bin/install_plugins
+pwd
+exit
+: 1781765947:0;cd $Z
+: 1781765966:0;git status
+: 1781765994:0;bat lib/plugins.zsh
+: 1781766048:0;mv lib/plugins.zsh lib/autoloader.sh
+: 1781766056:0;ls
+: 1781766087:0;ls -lAhF .dotfiles
+: 1781766097:0;ls -lAhF .dotfile
+: 1781766104:0;ls -lAhF
+: 1781766152:0;ln -s login.zsh .dotfiles/.zlogin
+: 1781766173:0;ls -lA
+: 1781766181:0;man ln
+: 1781766231:0;ln -s .dotfiles/.zlogin login.zsh
+: 1781766234:0;ls
+: 1781766261:0;ln -s .dotfiles/.zlogout logout.zsh
+: 1781766265:0;ls
+: 1781766279:0;ls -lAhF
+: 1781766312:0;chmod 770 history.log
+: 1781766321:0;chmod -x history.log
+: 1781766335:0;ls -lAhF history.log
+: 1781766350:0;chmod -x history.log
+: 1781766369:0;ls -lAhF history.log
+: 1781766385:0;chmod -X history.log
+: 1781766392:0;ls -lAhF history.log
+: 1781766465:0;bat history.log
+: 1781766505:0;ls
+: 1781766514:0;cd $Z
+: 1781766527:0;git add -A
