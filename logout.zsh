@@ -1,1 +1,1 @@
-.dotfiles/.zlogout
+.zdotdir/.zlogout

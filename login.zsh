@@ -1,1 +1,1 @@
-.dotfiles/.zlogin
+.zdotdir/.zlogin

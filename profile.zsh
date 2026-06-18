@@ -1,1 +1,1 @@
-.dotfiles/.zprofile
+.zdotdir/.zprofile
