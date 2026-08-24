@@ -1,5 +1,5 @@
-# zsh
-# ===
+# zsh aliases
+# ===========
 
 # Reload Zsh
 alias rl="exec zsh"
@@ -11,4 +11,4 @@ alias zenv="$EDITOR $Z/env.zsh"
 alias zrc="$EDITOR $Z/rc.zsh"
 
 # Edit all zsh startup files
-alias zconf="$EDITOR $Z/*.zsh"
+alias zconf="$EDITOR $Z/{aliases/zsh,logout,login,profile,rc,env}.zsh"

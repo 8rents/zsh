@@ -2,6 +2,9 @@
 # ======
 # Common & miscelanious aliases
 
+# cd
+alias c="cd"
+
 # git
 alias g="git"
 
@@ -9,8 +12,8 @@ alias g="git"
 alias n="nano"
 
 # vim
-alias v="vim"
+alias v="nvim"
 
 # oh my posh
 alias ohmyposh="oh-my-posh"
-alias omp="oh-my-posh"
+alias omp="ohmyposh"
