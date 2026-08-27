@@ -1,4 +1,4 @@
-# ZSH Libraries
+# ZSH Libraries `zsh/lib`
 
 > *A directory to hold all plugins and library files that you add to zsh to extend it's fucntionallity, but do not need to make any modifications to do so.*
 
@@ -33,11 +33,10 @@ Let's install the `zsh-syntax-highlighting` plugin from the amazing [zsh users](
 
 ## Essential Plugins
 
-- https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/colored-man-pages/README.md
-- https://github.com/zsh-users/zsh-syntax-highlighting
-- https://github.com/zsh-users/zsh-autosuggestions
-- https://github.com/zsh-users/zsh-completions
-- https://github.com/zsh-users/zsh-history-substring-searchhttps://
+- `zsh-users/zsh-syntax-highlighting`
+- `zsh-users/zsh-autosuggestions`
+- `zsh-users/zsh-completions`
+- `zsh-users/zsh-history-substring-search`
 
 ## Plugin Collections
 
