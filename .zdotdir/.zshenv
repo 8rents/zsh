@@ -9,73 +9,118 @@
 
 # sourced first before any other user zsh start up files
 
-# Directory Paths
-# ===============
-# Important directiries to zsh
-
+# Path environmental variable
+# ----—----------------------
+# files or shell scripts that are in directories included in $PATH can be called from any directory as if user is currently in that directory. Scripts do not need to be preceeded with ./ when being called.
 # note: the HOME environment variable is defined in editor config file
 # dotfiles/termux/termux.properties
+export PATH="$PATH:$HOME/bin"
+
 
 # Dotfiles (default: ~/.config)
-# ========
+# =============================
 # User level configs. analogous to /etc for system configs
-export DOTFILES="$HOME/dotfiles"; df="$DOTFILES"
+# Set location of config files (aka dotfiles)
+# commenting this, leaving it blank or settings it to a directory that doesnt exist all result in DOTFILES, XDG_CONFIG_HOME being set to default @  ~/.config
+# ----------------------------
+# --------- set this ---------
+export CONFIG=$HOME/dotfiles
+# ----------------------------
+
+# XDG Folders (X Desktop Group)
+# =============================
+# XDG is a set of standards and specifications used (but not strictly enforced) across Linux distros. 
+# It's divided into 2 main groups: 
+# - XDG Base directories: for apps and system data
+# - XDG User directories: for personal files.
+
 
 # XDG User Directories
-# ====================
-
-# XDG User Essentials
-# -------------------
-# These folders contents should be versioned by git
-
-# User Configurations
+# --------------------
+# User configuration files that are versioned by git
 # analogous to /etc for system configs
 # Default: $HOME/.config
-export XDG_CONFIG_HOME="$DOTFILES"
-export SYSTEM_DIR="$DOTFILES/.system"
+# check if: 1. $CONFIG (line 27) is set 2. not empty 3. it is a directory that exists. 
+# If any of the 3 are not true the value of XDG_CONFIG_HOME remains ~/.config
+if [[ -n $CONFIG && -d $CONFIG ]]; then
+  export XDG_CONFIG_HOME="$CONFIG"  
+fi
+
+# DOTFILES (or DF) are how I personally prefer to refer to my CLI configs folder. The value is set to the value of XDG_HOME_CONFIG which is the value of CONFIG (o  line 27) or .config if line 27 was not set. Mine point
+export DOTFILES="$XDG_CONFIG_HOME"
+export DF="$DOTFILES"
+
+
+# XDG Base Directories
+# --------------------
+# Apps and system cache files that are never directly touched by the user
+# The state data ia arguably the only directory that could be useful to backup for genwral purposes
+# Edit this line if you would like to store these files someplace else
+export SYSTEM_DIR="$HOME/.system"
+
+# Data files
+# Default: $HOME/. local/share
+# User-specific data files (e.g., local logs, plugins, game saves)
+export XDG_DATA_HOME="$SYSTEM_DIR"
+
+# App data 
+export XDG_STATE_HOME="$SYSTEM_DIR/data"
 
 # User state files
 # analogous to /var/lib for system state
 # Default: $HOME/.local/state.
+# Persistent state data (e.g., history, logs, current session state).
 export XDG_STATE_HOME="$SYSTEM_DIR/state"
-
-# XDG Non-Essentials
-# ------------------
-# These folders contents should be ignored by git
 
 # Cached data
 # analogous to /var/cache for system
 # Default: $HOME/.cache.
+# Non-essential cached data that can be safely deleted.
 export XDG_CACHE_HOME="$SYSTEM_DIR/cache"
 
-# User-specific data files such as sockets, named pipes, etc.
+# User-specific runtime data 
+# analogous to /var/run for runtime data
+# Default: /run/user/$UID
+# Temporary runtime files, sockets, and session-specific locks.
 export XDG_RUNTIME_DIR="$SYSTEM_DIR/runtime"
 
 
-# zsh
-# ===
+# XDG System (all users) config directories
+# ------------------------------------------
+# System-wide configuration directories (colon-separated fallback list)
+# Unless adminiatering multiple uswrs theres no reason to change these. Both commented values are the current defaults that are being used
+# Default system configs
+# XDG_CONFIG_DIRS="/etc/xdg"
+
+# System-wide data directories (colon-separated fallback list).
+# XDG_DATA_DIRS="/usr/local/share:/usr/share"
+
+
+
+# ZSH Shell Environment Configs
+# =============================
+# Shell adjustments thag apply to all instances of the zsh shell. Scripts, terminals, configs etc...
+# where as zshrc is only for intwractive terminal instances
 
 # Z is the path to this repo
-export Z="$DOTFILES/shells/zsh"
+export Z="$XDG_CONFIG_HOME/shells/zsh"
 
-# zsh configs
+# zsh dot dir
 # -----------
-# This is where zsh will create configuration & start up files. This directory is hidden because you should never need to directly access these files, instead using the aliases in the zsh folder.
+# This is where zsh will actually read & create configuration & start up files. 
+# This directory is hidden because you should never need to directly access these files
+# instead use the renamed and non-hidden aliases in the zsh ($Z) folder.
 export ZDOTDIR="$Z/.zdotdir"
 
 
-# Android partition
-# =================
-export ANDROID="$HOME/.storage/shared"
-
-# Termux boot 
-# -----------
-# Delete Android default directories
-export TERMUX_BOOT_DELETE_DIRS=("Alarms" "Documents" "Movies" "Music" "Pictures")
+# Android partition Paths
+# =======================
+export ANDROID="$HOME/android"; android="$ANDROID"
+export MUSIC="$ANDROID/Media/Music/Library"; tunes="$MUSIC"
 
 
-# Defaults
-# ========
+# Default Programs
+# ================
 # set commonly used environmental variables
 
 # CLI editor
@@ -92,5 +137,5 @@ export SPELL="aspell"
 
 # Pager
 export PAGER="most"
-# less, most, cat
+# less, most, cat, bat
 
