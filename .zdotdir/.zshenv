@@ -31,12 +31,12 @@ export CONFIG=$HOME/dotfiles
 # =============================
 # XDG is a set of standards and specifications used (but not strictly enforced) across Linux distros. 
 # It's divided into 2 main groups: 
+# - XDG User directories: for personal configs/files.
 # - XDG Base directories: for apps and system data
-# - XDG User directories: for personal files.
 
 
 # XDG User Directories
-# --------------------
+# -----
 # User configuration files that are versioned by git
 # analogous to /etc for system configs
 # Default: $HOME/.config
@@ -55,16 +55,22 @@ export DF="$DOTFILES"
 # --------------------
 # Apps and system cache files that are never directly touched by the user
 # The state data ia arguably the only directory that could be useful to backup for genwral purposes
-# Edit this line if you would like to store these files someplace else
+# Edit this line if you would like to store the xdg base system files in a different location.
 export SYSTEM_DIR="$HOME/.system"
 
+
+# ----- start system directory custom locations ------
+# if System_dir is set & it is an actual directory
+
+if [[ -n $SYSTEM_DIR && -d $SYSTEM_DIR ]]; then
+  
 # Data files
 # Default: $HOME/. local/share
 # User-specific data files (e.g., local logs, plugins, game saves)
-export XDG_DATA_HOME="$SYSTEM_DIR"
+export XDG_DATA_HOME="$SYSTEM_DIR/data"
 
 # App data 
-export XDG_STATE_HOME="$SYSTEM_DIR/data"
+export XDG_STATE_HOME="$SYSTEM_DIR/state"
 
 # User state files
 # analogous to /var/lib for system state
@@ -84,6 +90,8 @@ export XDG_CACHE_HOME="$SYSTEM_DIR/cache"
 # Temporary runtime files, sockets, and session-specific locks.
 export XDG_RUNTIME_DIR="$SYSTEM_DIR/runtime"
 
+fi
+# end system dir if
 
 # XDG System (all users) config directories
 # ------------------------------------------
@@ -95,6 +103,8 @@ export XDG_RUNTIME_DIR="$SYSTEM_DIR/runtime"
 # System-wide data directories (colon-separated fallback list).
 # XDG_DATA_DIRS="/usr/local/share:/usr/share"
 
+
+# ----- end system directory custom locations ------
 
 
 # ZSH Shell Environment Configs
@@ -136,6 +146,9 @@ export SPELL="aspell"
 # aspell, hunspell
 
 # Pager
-export PAGER="most"
+# export PAGER="bat"
 # less, most, cat, bat
+
+# Pager on manpages
+# export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 

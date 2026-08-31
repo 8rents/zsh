@@ -6,11 +6,10 @@
 
 ## Cue
 
-- [ ] Make sure that line endings are correct
-- [ ] Fix or ditch oh my posh
-- [ ] get aliases working
-- [ ] get plugins working
-- [ ] Work on custom prompt
+- [ ] Get completions directory and fpath set up
+- [ ] Export completions for all my tools or write a script to do it automatically
+- [ ] get plugins autoloader working
+- [ ] Work on omp custom prompt
 
 ## Concepts / Ideas
 
@@ -21,4 +20,7 @@ into lightening fast production files.
 
 ## Completed
 
+- [x] Fix or ditch oh my posh
+- [x] Make sure that line endings are correct
+- [x] get aliases working
 - [x] Remove oh my zsh and other frameworks

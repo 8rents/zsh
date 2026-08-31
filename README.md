@@ -29,19 +29,11 @@
 
 ## Environment Variable Path
 
-The environent variable `$Z` is defined in `.zshenv` (`$Z/env.zsh`). I've renamed `~/.config` to be a nerd to `dotfiles` by redefining the `XDG_CONFIG_HOME` also set in the `.zshenv` file. When writig paths to tbis repo I'll use `$Z` instead of the full path.
+The environent variable `$Z` is defined in `.zshenv` (`$Z/env.zsh`). I've renamed `~/.config` to be a nerd to `dotfiles` by redefining the `XDG_CONFIG_HOME` also set in the `.zshenv` file. When writing paths to this repo I'll use `$Z` instead of the full path.
 
 ## Goals and philosophy
 
 Instead of treating our shells like these magical horned beasts that can't ever be fully understood (only overcomplicated and abstracted into emoji hell). We should resimplify, keep the best features, even if just the emojis, and keep it for what it is, a work horse (let's just call it a horse too, not that shells are horses or should be renamed such, they're just not unicorns). 
-
----
-
-## Loading order of assets in this library
-
-1. A .zshenv file is placed in user home pointing to: `$Z/.dotfiles`.  This is where the correctly named `.` zsh live.
-2. Within that dotfiles folder is a `.zshrc` file with the `$Z` variable defined. All further zsh paths are relative to this path and within it.
-3. The files in project root that are named the way I like them are just symlinks pointing to the dotfiles directory.
 
 ---
 
@@ -51,7 +43,7 @@ You can either add all your aliases to one file in the aliases folder, or create
 
 ## How to add new plug ins to this Library
 
-To add new plugins to your installation, in the `zshrc` file find the `plugins` array. Use the GitHub username/ plugin name with each plugin on it's own line. You don't need to do anything else. If the plugins don't exist yet they will be downloaded and initialized all on their own
+To add new plugins to your installation, in the `zshrc` file find the `plugins` array. Use the `GitHub username/repo` name with each plugin on it's own line. You don't need to do anything else. If the plugins don't exist yet they will be downloaded and initialized all on their own.
 
 ```bash
 plugins=(
@@ -68,4 +60,4 @@ Be wary of adding too many plugins!
 
 ## Credits & Links
 
-- [What to put in your zsh startup files (Sourceforge.io)](https://zsh.sourceforge.io/Guide/zshguide02.html) - Comprehensive overview of zsh and it's start up files.
+- [What to put in your zsh startup files (Sourceforge.io)](https://zsh.sourceforge.io/Guide/zshguide02.html) - Comprehensive overview of zsh and it's start up files

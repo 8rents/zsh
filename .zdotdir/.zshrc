@@ -175,8 +175,8 @@ zsh-users/zsh-autocomplete
 
 # Load functions file
 # -------------------
-# Just load a bunch of self executing dunctions in here
-source "$Z/functions.sh"
+# functions that are too small to be plugins, but too complex to be aliases
+source "$Z/functions.zsh"
 
 
 

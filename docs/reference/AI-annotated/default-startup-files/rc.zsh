@@ -112,7 +112,7 @@ setopt APPEND_HISTORY
 # ------------------------------------------------------------------------------
 # Sets the look and feel of your command line prompt.
 
-# DEFAULT: Enable parameter expansion, command substitution, and arithmetic
+# DEFAULT: Enable parameter expansion, command substitution, and arithmetic 
 # expansion inside the prompt strings.
 setopt PROMPT_SUBST
 
